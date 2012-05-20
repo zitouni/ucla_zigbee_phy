@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/cgran/!svn/ver/296/projects/ucla_zigbee_phy/trunk
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/configure.ac
+END
+Makefile.common
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/Makefile.common
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/AUTHORS
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/INSTALL
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/ChangeLog
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/Makefile.am
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/config.guess
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/README
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/config.sub
+END
+bootstrap
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/bootstrap
+END

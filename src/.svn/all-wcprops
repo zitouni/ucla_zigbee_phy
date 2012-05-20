@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/cgran/!svn/ver/296/projects/ucla_zigbee_phy/trunk/src
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/Makefile.am
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/.cvsignore
+END

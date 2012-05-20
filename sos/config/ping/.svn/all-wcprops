@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/sos/config/ping
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/sos/config/ping/Makefile
+END
+ping_app.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/sos/config/ping/ping_app.c
+END

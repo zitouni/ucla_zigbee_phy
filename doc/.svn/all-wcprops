@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/doc
+END
+usrp.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/doc/usrp.pdf
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/doc/Makefile.am
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/doc/.cvsignore
+END

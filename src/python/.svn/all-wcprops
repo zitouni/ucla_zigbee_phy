@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/cgran/!svn/ver/267/projects/ucla_zigbee_phy/trunk/src/python
+END
+ieee802_15_4.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/cgran/!svn/ver/267/projects/ucla_zigbee_phy/trunk/src/python/ieee802_15_4.py
+END
+crc16.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/python/crc16.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/python/__init__.py
+END
+crc8.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/python/crc8.py
+END
+cc1k.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/python/cc1k.py
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/python/Makefile.am
+END
+cc1k_sos_pkt.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/python/cc1k_sos_pkt.py
+END
+run_tests.in
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/python/run_tests.in
+END
+qa_ucla.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/python/qa_ucla.py
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/python/.cvsignore
+END
+ieee802_15_4_pkt.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/cgran/!svn/ver/267/projects/ucla_zigbee_phy/trunk/src/python/ieee802_15_4_pkt.py
+END

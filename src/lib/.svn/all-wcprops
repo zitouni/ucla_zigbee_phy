@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/cgran/!svn/ver/296/projects/ucla_zigbee_phy/trunk/src/lib
+END
+ucla_symbols_to_chips_bi.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cgran/!svn/ver/267/projects/ucla_zigbee_phy/trunk/src/lib/ucla_symbols_to_chips_bi.cc
+END
+ucla_symbols_to_chips_bi.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/ucla_symbols_to_chips_bi.h
+END
+ucla_interleave.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/ucla_interleave.cc
+END
+ucla_interleave.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/ucla_interleave.h
+END
+ucla_multichanneladd_cc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/ucla_multichanneladd_cc.cc
+END
+ucla_multichanneladd_cc.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/ucla_multichanneladd_cc.h
+END
+ucla_delay_cc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/ucla_delay_cc.cc
+END
+ucla_manchester_ff.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/cgran/!svn/ver/267/projects/ucla_zigbee_phy/trunk/src/lib/ucla_manchester_ff.cc
+END
+ucla_ieee802_15_4_packet_sink.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/cgran/!svn/ver/296/projects/ucla_zigbee_phy/trunk/src/lib/ucla_ieee802_15_4_packet_sink.cc
+END
+ucla_delay_cc.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/ucla_delay_cc.h
+END
+ucla_manchester_ff.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/ucla_manchester_ff.h
+END
+ucla_ieee802_15_4_packet_sink.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/ucla_ieee802_15_4_packet_sink.h
+END
+ucla_qpsk_modulator_cc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/ucla_qpsk_modulator_cc.cc
+END
+ucla_qpsk_modulator_cc.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/ucla_qpsk_modulator_cc.h
+END
+ucla_sos_packet_sink.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/cgran/!svn/ver/267/projects/ucla_zigbee_phy/trunk/src/lib/ucla_sos_packet_sink.cc
+END
+ucla_cc1k_correlator_cb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/cgran/!svn/ver/267/projects/ucla_zigbee_phy/trunk/src/lib/ucla_cc1k_correlator_cb.cc
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/Makefile.am
+END
+ucla_sos_packet_sink.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/ucla_sos_packet_sink.h
+END
+ucla_cc1k_correlator_cb.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/ucla_cc1k_correlator_cb.h
+END
+ucla.i
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/ucla.i
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/cgran/!svn/ver/97/projects/ucla_zigbee_phy/trunk/src/lib/.cvsignore
+END
