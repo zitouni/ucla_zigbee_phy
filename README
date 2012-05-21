@@ -33,6 +33,21 @@ This tarball contains a build tree with examples, Makefiles, etc that
 demonstrate how to write signal processing blocks for the GNU Radio
 system.  
 
+Befor the installation steps you should do this step By modifing the file python.am :
+
+--- lib/am/python.am.orig	2012-01-31 11:41:18.000000000 +0000
++++ lib/am/python.am
+@@ -23,8 +23,8 @@ endif %?INSTALL%
+ ## Installing.  ##
+ ## ------------ ##
+ 
++?FIRST?am__py_compile = PYTHON=$(PYTHON) $(SHELL) $(py_compile)
+ if %?INSTALL%
+-?FIRST?am__py_compile = PYTHON=$(PYTHON) $(SHELL) $(py_compile)
+ am__installdirs += "$(DESTDIR)$(%NDIR%dir)"
+ .PHONY install-%EXEC?exec:data%-am: install-%DIR%PYTHON
+ install-%DIR%PYTHON: $(%DIR%_PYTHON)
+
 To build the examples from the tarball use the normal recipe:
 
   $ ./configure
