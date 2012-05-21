@@ -25,9 +25,9 @@
 #
 
 ###################
-import Numeric
+import numpy
 
-from gnuradio import gr, packet_utils, gru
+from gnuradio import gr, digital, gru
 from gnuradio import ucla
 import crc16
 import gnuradio.gr.gr_threading as _threading

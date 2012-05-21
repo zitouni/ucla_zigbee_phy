@@ -28,7 +28,7 @@
 # Modified by: Thomas Schmid, Leslie Choong, Sanna Leidelof
 #
 
-from gnuradio import gr, ucla
+from gnuradio import gr, ucla, digital
 from math import pi
 
 class ieee802_15_4_mod(gr.hier_block2):
@@ -111,7 +111,7 @@ class ieee802_15_4_demod(gr.hier_block2):
         freq_error=0.0
         
         gain_omega = .25*gain_mu*gain_mu        # critically damped
-        self.clock_recovery = gr.clock_recovery_mm_ff(omega, gain_omega, mu, gain_mu,
+        self.clock_recovery = digital.clock_recovery_mm_ff(omega, gain_omega, mu, gain_mu,
                                                       omega_relative_limit)
         
         # Connect

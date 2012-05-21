@@ -7,7 +7,8 @@
 #
   
 from gnuradio import gr, eng_notation
-from gnuradio import usrp
+#from gnuradio import usrp
+from gnuradio import uhd
 from gnuradio.ucla_blks import ieee802_15_4_pkt
 from gnuradio.eng_option import eng_option
 from optparse import OptionParser
@@ -51,17 +52,33 @@ class oqpsk_rx_graph (gr.top_block):
         print "usrp_decim = ", self.usrp_decim
         print "fs = ", eng_notation.num_to_str(self.fs)
 
-        u = usrp.source_c (0, self.usrp_decim)
-        if options.rx_subdev_spec is None:
-            options.rx_subdev_spec = pick_subdevice(u)
-        u.set_mux(usrp.determine_rx_mux_value(u, options.rx_subdev_spec))
-
-        subdev = usrp.selected_subdev(u, options.rx_subdev_spec)
-        print "Using RX d'board %s" % (subdev.side_and_name(),)
-
-        u.tune(0, subdev, options.cordic_freq)
-        u.set_pga(0, options.gain)
-        u.set_pga(1, options.gain)
+        samp_rate=1e6
+        u = uhd.usrp_source(
+            device_addr="serial=4c758445",
+            stream_args=uhd.stream_args(
+            cpu_format="fc32",
+            channels=range(1),
+            ),
+        )
+        u.set_subdev_spec("A:0", 0)
+        u.set_samp_rate(samp_rate)
+        u.set_center_freq(options.cordic_freq, 0)
+        u.set_gain(options.gain, 0)
+        
+        #u = usrp.source_c (0, self.usrp_decim)
+        
+        #if options.rx_subdev_spec is None:
+        #    options.rx_subdev_spec = pick_subdevice(u)
+        #u.set_mux(usrp.determine_rx_mux_value(u, options.rx_subdev_spec))
+        
+    
+        #subdev = usrp.selected_subdev(u, options.rx_subdev_spec)
+        # print "Using RX d'board %s" % (subdev.side_and_name(),)
+       
+        # u.tune(0, subdev, options.cordic_freq)
+       
+        #u.set_pga(0, options.gain)
+        #u.set_pga(1, options.gain)
 
         self.u = u
 
@@ -92,7 +109,7 @@ def main ():
     parser = OptionParser (option_class=eng_option)
     parser.add_option("-R", "--rx-subdev-spec", type="subdev", default=None,
                       help="select USRP Rx side A or B (default=first one with a daughterboard)")
-    parser.add_option ("-c", "--cordic-freq", type="eng_float", default=2475000000,
+    parser.add_option ("-c", "--cordic-freq", type="eng_float", default=950000000,
                        help="set rx cordic frequency to FREQ", metavar="FREQ")
     parser.add_option ("-r", "--data-rate", type="eng_float", default=2000000)
     parser.add_option ("-f", "--filename", type="string",

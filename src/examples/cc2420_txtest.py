@@ -7,7 +7,8 @@
 #
   
 from gnuradio import gr, eng_notation
-from gnuradio import usrp
+#from gnuradio import usrp
+from gnuradio import uhd
 from gnuradio import ucla
 from gnuradio.ucla_blks import ieee802_15_4_pkt
 from gnuradio.eng_option import eng_option
@@ -32,25 +33,39 @@ class transmit_path(gr.top_block):
         gr.top_block.__init__(self) 
         self.normal_gain = 8000
 
-        self.u = usrp.sink_c()
-        dac_rate = self.u.dac_rate();
+        samp_rate=1e6
+        self.u = uhd.usrp_sink(
+            device_addr="serial=4c758445",
+            stream_args=uhd.stream_args(
+                cpu_format="fc32",
+                channels=range(1),
+            ),
+        )
+        
+        self.u.set_subdev_spec("A:0", 0)
+        self.u.set_samp_rate(samp_rate)
+        self.u.set_center_freq(options.cordic_freq, 0)
+        self.u.set_gain(options.gain, 0)
+        
+        #self.u = usrp.sink_c()
+        #dac_rate = self.u.dac_rate();
         self._data_rate = 2000000
         self._spb = 2
         self._interp = int(128e6 / self._spb / self._data_rate)
         self.fs = 128e6 / self._interp
 
-        self.u.set_interp_rate(self._interp)
+        #self.u.set_interp_rate(self._interp)
 
         # determine the daughterboard subdevice we're using
-        if options.tx_subdev_spec is None:
-            options.tx_subdev_spec = usrp.pick_tx_subdevice(self.u)
-        self.u.set_mux(usrp.determine_tx_mux_value(self.u, options.tx_subdev_spec))
-        self.subdev = usrp.selected_subdev(self.u, options.tx_subdev_spec)
-        print "Using TX d'board %s" % (self.subdev.side_and_name(),)
+        #if options.tx_subdev_spec is None:
+        #    options.tx_subdev_spec = usrp.pick_tx_subdevice(self.u)
+        #self.u.set_mux(usrp.determine_tx_mux_value(self.u, options.tx_subdev_spec))
+        #self.subdev = usrp.selected_subdev(self.u, options.tx_subdev_spec)
+        #print "Using TX d'board %s" % (self.subdev.side_and_name(),)
 
-        self.u.tune(0, self.subdev, options.cordic_freq)
-        self.u.set_pga(0, options.gain)
-        self.u.set_pga(1, options.gain)
+        #self.u.tune(0, self.subdev, options.cordic_freq)
+        #self.u.set_pga(0, options.gain)
+        #self.u.set_pga(1, options.gain)
 
         # transmitter
         self.packet_transmitter = ieee802_15_4_pkt.ieee802_15_4_mod_pkts(self, spb=self._spb, msgq_limit=2) 
@@ -61,15 +76,15 @@ class transmit_path(gr.top_block):
         #self.filesink = gr.file_sink(gr.sizeof_gr_complex, 'rx_test.dat')
         #self.connect(self.gain, self.filesink)
 
-        self.set_gain(self.subdev.gain_range()[1])  # set max Tx gain
-        self.set_auto_tr(True)                      # enable Auto Transmit/Receive switching
+        #self.set_gain(self.subdev.gain_range()[1])  # set max Tx gain
+        #self.set_auto_tr(True)                      # enable Auto Transmit/Receive switching
 
     def set_gain(self, gain):
         self.gain = gain
         self.subdev.set_gain(gain)
-
-    def set_auto_tr(self, enable):
-        return self.subdev.set_auto_tr(enable)
+#
+#    def set_auto_tr(self, enable):
+#        return self.subdev.set_auto_tr(enable)
         
     def send_pkt(self, payload='', eof=False):
         return self.packet_transmitter.send_pkt(0xe5, struct.pack("HHHH", 0xFFFF, 0xFFFF, 0x10, 0x10), payload, eof)
@@ -87,7 +102,7 @@ def main ():
     parser.add_option ("-r", "--data-rate", type="eng_float", default=2000000)
     parser.add_option ("-f", "--filename", type="string",
                        default="rx.dat", help="write data to FILENAME")
-    parser.add_option ("-g", "--gain", type="eng_float", default=0,
+    parser.add_option ("-g", "--gain", type="eng_float", default=10,
                        help="set Rx PGA gain in dB [0,20]")
     parser.add_option ("-N", "--no-gui", action="store_true", default=False)
     
