@@ -64,8 +64,10 @@ class ieee802_15_4_mod(gr.hier_block2):
 
 
 	# Connect
-	self.connect(self, self.symbolsToChips, self.chipsToSymbols,
-                   self.symbolsToConstellation, self.pskmod, self.delay, self)
+        self.connect(self, self.symbolsToChips, self.chipsToSymbols, self.symbolsToConstellation, self.pskmod, self.delay, self)
+    
+     #   self.connect(self, self.symbolsToChips, self.chipsToSymbols, self.symbolsToConstellation, self.pskmod, self)
+
 
 class ieee802_15_4_demod(gr.hier_block2):
     def __init__(self, *args, **kwargs):

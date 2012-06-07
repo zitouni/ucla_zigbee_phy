@@ -167,7 +167,7 @@ class ieee802_15_4_mod_pkts(gr.hier_block2):
         
         self.vector_source = gr.vector_source_b([1,], True)
         # accepts messages from the outside world
-        #self.pkt_input = gr.message_source(gr.sizeof_char, self.msgq_limit)
+        self.pkt_input = gr.message_source(gr.sizeof_char, self.msgq_limit)
         self.ieee802_15_4_mod = ieee802_15_4.ieee802_15_4_mod(self, *args, **kwargs)
         self.connect(self.vector_source, self.ieee802_15_4_mod, self) 
 

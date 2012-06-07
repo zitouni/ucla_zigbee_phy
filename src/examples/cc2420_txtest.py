@@ -35,7 +35,7 @@ class transmit_path(gr.top_block):
 
         samp_rate=1e6
         self.u = uhd.usrp_sink(
-            device_addr="serial=4c758445",
+            device_addr="serial=4d9de875",
             stream_args=uhd.stream_args(
                 cpu_format="fc32",
                 channels=range(1),
