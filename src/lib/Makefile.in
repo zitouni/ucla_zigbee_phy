@@ -321,8 +321,8 @@ top_srcdir = @top_srcdir@
 # includes
 grincludedir = $(includedir)/gnuradio
 
-# swig includes 
-swigincludedir = $(grincludedir)/swig
+# swig includes
+swigincludedir = $(grincludedir)/swig -I/$(includedir)/gruel/swig
 
 # Install this stuff in the appropriate subdirectory
 # This usually ends up at:
