@@ -2943,52 +2943,59 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 /* -------- TYPES TABLE (BEGIN) -------- */
 
 #define SWIGTYPE_p_allocator_type swig_types[0]
-#define SWIGTYPE_p_boost__shared_ptrT_gr_basic_block_t swig_types[1]
-#define SWIGTYPE_p_boost__shared_ptrT_gr_block_detail_t swig_types[2]
-#define SWIGTYPE_p_boost__shared_ptrT_gr_block_t swig_types[3]
-#define SWIGTYPE_p_boost__shared_ptrT_gr_buffer_reader_t swig_types[4]
-#define SWIGTYPE_p_boost__shared_ptrT_gr_buffer_t swig_types[5]
-#define SWIGTYPE_p_boost__shared_ptrT_gr_dispatcher_t swig_types[6]
-#define SWIGTYPE_p_boost__shared_ptrT_gr_hier_block2_t swig_types[7]
-#define SWIGTYPE_p_boost__shared_ptrT_gr_io_signature_t swig_types[8]
-#define SWIGTYPE_p_boost__shared_ptrT_gr_message_t swig_types[9]
-#define SWIGTYPE_p_boost__shared_ptrT_gr_msg_queue_t swig_types[10]
-#define SWIGTYPE_p_boost__shared_ptrT_gr_single_threaded_scheduler_t swig_types[11]
-#define SWIGTYPE_p_boost__shared_ptrT_gr_top_block_t swig_types[12]
-#define SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t swig_types[13]
-#define SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t swig_types[14]
-#define SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t swig_types[15]
-#define SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t swig_types[16]
-#define SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t swig_types[17]
-#define SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t swig_types[18]
-#define SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t swig_types[19]
-#define SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t swig_types[20]
-#define SWIGTYPE_p_char swig_types[21]
-#define SWIGTYPE_p_difference_type swig_types[22]
-#define SWIGTYPE_p_gr_basic_block swig_types[23]
-#define SWIGTYPE_p_gr_block swig_types[24]
-#define SWIGTYPE_p_gr_hier_block2 swig_types[25]
-#define SWIGTYPE_p_gr_sync_block swig_types[26]
-#define SWIGTYPE_p_gr_sync_decimator swig_types[27]
-#define SWIGTYPE_p_gr_sync_interpolator swig_types[28]
-#define SWIGTYPE_p_gr_top_block swig_types[29]
-#define SWIGTYPE_p_gruel__rt_status_t swig_types[30]
-#define SWIGTYPE_p_long_long swig_types[31]
-#define SWIGTYPE_p_size_type swig_types[32]
-#define SWIGTYPE_p_std__complexT_double_t swig_types[33]
-#define SWIGTYPE_p_std__complexT_float_t swig_types[34]
-#define SWIGTYPE_p_ucla_cc1k_correlator_cb swig_types[35]
-#define SWIGTYPE_p_ucla_delay_cc swig_types[36]
-#define SWIGTYPE_p_ucla_ieee802_15_4_packet_sink swig_types[37]
-#define SWIGTYPE_p_ucla_manchester_ff swig_types[38]
-#define SWIGTYPE_p_ucla_multichanneladd_cc swig_types[39]
-#define SWIGTYPE_p_ucla_qpsk_modulator_cc swig_types[40]
-#define SWIGTYPE_p_ucla_sos_packet_sink swig_types[41]
-#define SWIGTYPE_p_ucla_symbols_to_chips_bi swig_types[42]
-#define SWIGTYPE_p_unsigned_long_long swig_types[43]
-#define SWIGTYPE_p_value_type swig_types[44]
-static swig_type_info *swig_types[46];
-static swig_module_info swig_module = {swig_types, 45, 0, 0, 0, 0};
+#define SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t swig_types[1]
+#define SWIGTYPE_p_boost__shared_ptrT_gr_basic_block_t swig_types[2]
+#define SWIGTYPE_p_boost__shared_ptrT_gr_block_detail_t swig_types[3]
+#define SWIGTYPE_p_boost__shared_ptrT_gr_block_t swig_types[4]
+#define SWIGTYPE_p_boost__shared_ptrT_gr_buffer_reader_t swig_types[5]
+#define SWIGTYPE_p_boost__shared_ptrT_gr_buffer_t swig_types[6]
+#define SWIGTYPE_p_boost__shared_ptrT_gr_dispatcher_t swig_types[7]
+#define SWIGTYPE_p_boost__shared_ptrT_gr_hier_block2_t swig_types[8]
+#define SWIGTYPE_p_boost__shared_ptrT_gr_io_signature_t swig_types[9]
+#define SWIGTYPE_p_boost__shared_ptrT_gr_message_t swig_types[10]
+#define SWIGTYPE_p_boost__shared_ptrT_gr_msg_queue_t swig_types[11]
+#define SWIGTYPE_p_boost__shared_ptrT_gr_single_threaded_scheduler_t swig_types[12]
+#define SWIGTYPE_p_boost__shared_ptrT_gr_top_block_t swig_types[13]
+#define SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t swig_types[14]
+#define SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t swig_types[15]
+#define SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t swig_types[16]
+#define SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t swig_types[17]
+#define SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t swig_types[18]
+#define SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t swig_types[19]
+#define SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t swig_types[20]
+#define SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t swig_types[21]
+#define SWIGTYPE_p_char swig_types[22]
+#define SWIGTYPE_p_difference_type swig_types[23]
+#define SWIGTYPE_p_gr_basic_block swig_types[24]
+#define SWIGTYPE_p_gr_block swig_types[25]
+#define SWIGTYPE_p_gr_hier_block2 swig_types[26]
+#define SWIGTYPE_p_gr_sync_block swig_types[27]
+#define SWIGTYPE_p_gr_sync_decimator swig_types[28]
+#define SWIGTYPE_p_gr_sync_interpolator swig_types[29]
+#define SWIGTYPE_p_gr_top_block swig_types[30]
+#define SWIGTYPE_p_gruel__rt_status_t swig_types[31]
+#define SWIGTYPE_p_int swig_types[32]
+#define SWIGTYPE_p_long_long swig_types[33]
+#define SWIGTYPE_p_short swig_types[34]
+#define SWIGTYPE_p_signed_char swig_types[35]
+#define SWIGTYPE_p_size_type swig_types[36]
+#define SWIGTYPE_p_std__complexT_double_t swig_types[37]
+#define SWIGTYPE_p_std__complexT_float_t swig_types[38]
+#define SWIGTYPE_p_ucla_cc1k_correlator_cb swig_types[39]
+#define SWIGTYPE_p_ucla_delay_cc swig_types[40]
+#define SWIGTYPE_p_ucla_ieee802_15_4_packet_sink swig_types[41]
+#define SWIGTYPE_p_ucla_manchester_ff swig_types[42]
+#define SWIGTYPE_p_ucla_multichanneladd_cc swig_types[43]
+#define SWIGTYPE_p_ucla_qpsk_modulator_cc swig_types[44]
+#define SWIGTYPE_p_ucla_sos_packet_sink swig_types[45]
+#define SWIGTYPE_p_ucla_symbols_to_chips_bi swig_types[46]
+#define SWIGTYPE_p_unsigned_char swig_types[47]
+#define SWIGTYPE_p_unsigned_int swig_types[48]
+#define SWIGTYPE_p_unsigned_long_long swig_types[49]
+#define SWIGTYPE_p_unsigned_short swig_types[50]
+#define SWIGTYPE_p_value_type swig_types[51]
+static swig_type_info *swig_types[53];
+static swig_module_info swig_module = {swig_types, 52, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4325,47 +4332,6 @@ SWIG_From_unsigned_SS_long_SS_long  (unsigned long long value)
 }
 
 
-SWIGINTERN swig_type_info*
-SWIG_pchar_descriptor(void)
-{
-  static int init = 0;
-  static swig_type_info* info = 0;
-  if (!init) {
-    info = SWIG_TypeQuery("_p_char");
-    init = 1;
-  }
-  return info;
-}
-
-
-SWIGINTERNINLINE PyObject *
-SWIG_FromCharPtrAndSize(const char* carray, size_t size)
-{
-  if (carray) {
-    if (size > INT_MAX) {
-      swig_type_info* pchar_descriptor = SWIG_pchar_descriptor();
-      return pchar_descriptor ? 
-	SWIG_InternalNewPointerObj(const_cast< char * >(carray), pchar_descriptor, 0) : SWIG_Py_Void();
-    } else {
-#if PY_VERSION_HEX >= 0x03000000
-      return PyUnicode_FromStringAndSize(carray, static_cast< int >(size));
-#else
-      return PyString_FromStringAndSize(carray, static_cast< int >(size));
-#endif
-    }
-  } else {
-    return SWIG_Py_Void();
-  }
-}
-
-
-SWIGINTERNINLINE PyObject *
-SWIG_From_std_string  (const std::string& s)
-{
-  return SWIG_FromCharPtrAndSize(s.data(), s.size());
-}
-
-
 SWIGINTERN int
 SWIG_AsVal_long (PyObject *obj, long* val)
 {
@@ -4418,6 +4384,154 @@ SWIG_AsVal_int (PyObject * obj, int *val)
     }
   }  
   return res;
+}
+
+
+SWIGINTERN swig_type_info*
+SWIG_pchar_descriptor(void)
+{
+  static int init = 0;
+  static swig_type_info* info = 0;
+  if (!init) {
+    info = SWIG_TypeQuery("_p_char");
+    init = 1;
+  }
+  return info;
+}
+
+
+SWIGINTERNINLINE PyObject *
+SWIG_FromCharPtrAndSize(const char* carray, size_t size)
+{
+  if (carray) {
+    if (size > INT_MAX) {
+      swig_type_info* pchar_descriptor = SWIG_pchar_descriptor();
+      return pchar_descriptor ? 
+	SWIG_InternalNewPointerObj(const_cast< char * >(carray), pchar_descriptor, 0) : SWIG_Py_Void();
+    } else {
+#if PY_VERSION_HEX >= 0x03000000
+      return PyUnicode_FromStringAndSize(carray, static_cast< int >(size));
+#else
+      return PyString_FromStringAndSize(carray, static_cast< int >(size));
+#endif
+    }
+  } else {
+    return SWIG_Py_Void();
+  }
+}
+
+
+SWIGINTERNINLINE PyObject *
+SWIG_From_std_string  (const std::string& s)
+{
+  return SWIG_FromCharPtrAndSize(s.data(), s.size());
+}
+
+
+SWIGINTERN int
+SWIG_AsCharPtrAndSize(PyObject *obj, char** cptr, size_t* psize, int *alloc)
+{
+#if PY_VERSION_HEX>=0x03000000
+  if (PyUnicode_Check(obj))
+#else  
+  if (PyString_Check(obj))
+#endif
+  {
+    char *cstr; Py_ssize_t len;
+#if PY_VERSION_HEX>=0x03000000
+    if (!alloc && cptr) {
+        /* We can't allow converting without allocation, since the internal
+           representation of string in Python 3 is UCS-2/UCS-4 but we require
+           a UTF-8 representation.
+           TODO(bhy) More detailed explanation */
+        return SWIG_RuntimeError;
+    }
+    obj = PyUnicode_AsUTF8String(obj);
+    PyBytes_AsStringAndSize(obj, &cstr, &len);
+    if(alloc) *alloc = SWIG_NEWOBJ;
+#else
+    PyString_AsStringAndSize(obj, &cstr, &len);
+#endif
+    if (cptr) {
+      if (alloc) {
+	/* 
+	   In python the user should not be able to modify the inner
+	   string representation. To warranty that, if you define
+	   SWIG_PYTHON_SAFE_CSTRINGS, a new/copy of the python string
+	   buffer is always returned.
+
+	   The default behavior is just to return the pointer value,
+	   so, be careful.
+	*/ 
+#if defined(SWIG_PYTHON_SAFE_CSTRINGS)
+	if (*alloc != SWIG_OLDOBJ) 
+#else
+	if (*alloc == SWIG_NEWOBJ) 
+#endif
+	  {
+	    *cptr = reinterpret_cast< char* >(memcpy((new char[len + 1]), cstr, sizeof(char)*(len + 1)));
+	    *alloc = SWIG_NEWOBJ;
+	  }
+	else {
+	  *cptr = cstr;
+	  *alloc = SWIG_OLDOBJ;
+	}
+      } else {
+        #if PY_VERSION_HEX>=0x03000000
+        assert(0); /* Should never reach here in Python 3 */
+        #endif
+	*cptr = SWIG_Python_str_AsChar(obj);
+      }
+    }
+    if (psize) *psize = len + 1;
+#if PY_VERSION_HEX>=0x03000000
+    Py_XDECREF(obj);
+#endif
+    return SWIG_OK;
+  } else {
+    swig_type_info* pchar_descriptor = SWIG_pchar_descriptor();
+    if (pchar_descriptor) {
+      void* vptr = 0;
+      if (SWIG_ConvertPtr(obj, &vptr, pchar_descriptor, 0) == SWIG_OK) {
+	if (cptr) *cptr = (char *) vptr;
+	if (psize) *psize = vptr ? (strlen((char *)vptr) + 1) : 0;
+	if (alloc) *alloc = SWIG_OLDOBJ;
+	return SWIG_OK;
+      }
+    }
+  }
+  return SWIG_TypeError;
+}
+
+
+SWIGINTERN int
+SWIG_AsPtr_std_string (PyObject * obj, std::string **val) 
+{
+  char* buf = 0 ; size_t size = 0; int alloc = SWIG_OLDOBJ;
+  if (SWIG_IsOK((SWIG_AsCharPtrAndSize(obj, &buf, &size, &alloc)))) {
+    if (buf) {
+      if (val) *val = new std::string(buf, size - 1);
+      if (alloc == SWIG_NEWOBJ) delete[] buf;
+      return SWIG_NEWOBJ;
+    } else {
+      if (val) *val = 0;
+      return SWIG_OLDOBJ;
+    }
+  } else {
+    static int init = 0;
+    static swig_type_info* descriptor = 0;
+    if (!init) {
+      descriptor = SWIG_TypeQuery("std::string" " *");
+      init = 1;
+    }
+    if (descriptor) {
+      std::string *vptr;
+      int res = SWIG_ConvertPtr(obj, (void**)&vptr, descriptor, 0);
+      if (SWIG_IsOK(res) && val) *val = vptr;
+      return res;
+    }
+  }
+  return SWIG_ERROR;
 }
 
 
@@ -4976,6 +5090,523 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr_set_max_noutput_items",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_cc1k_correlator_cb_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_cc1k_correlator_cb_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_cc1k_correlator_cb_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_cc1k_correlator_cb_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_cc1k_correlator_cb_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_cc1k_correlator_cb_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_cc1k_correlator_cb_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_cc1k_correlator_cb_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_max_output_buffer(long)\n"
+    "    gr_block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_cc1k_correlator_cb_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_cc1k_correlator_cb_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_cc1k_correlator_cb_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_cc1k_correlator_cb_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_cc1k_correlator_cb_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_cc1k_correlator_cb_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_cc1k_correlator_cb_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_min_output_buffer(long)\n"
+    "    gr_block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
 SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_detail(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
@@ -5075,6 +5706,39 @@ SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_name(PyObject *SWIGUNUSE
   {
     try {
       result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -5268,6 +5932,214 @@ SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_check_topology(PyObject 
     
   }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr_set_block_alias",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "ucla_cc1k_correlator_cb_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr__post",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ucla_cc1k_correlator_cb_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_cc1k_correlator_cb_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ucla_cc1k_correlator_cb_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_cc1k_correlator_cb_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_cc1k_correlator_cb_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_cc1k_correlator_cb > *arg1 = (boost::shared_ptr< ucla_cc1k_correlator_cb > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_cc1k_correlator_cb_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_cc1k_correlator_cb_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_cc1k_correlator_cb_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< ucla_cc1k_correlator_cb > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_cc1k_correlator_cb > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -5743,6 +6615,523 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr_set_max_noutput_items",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_sos_packet_sink_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_sos_packet_sink_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_sos_packet_sink_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_sos_packet_sink_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_sos_packet_sink_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_sos_packet_sink_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_sos_packet_sink_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_sos_packet_sink_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_max_output_buffer(long)\n"
+    "    gr_block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_sos_packet_sink_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_sos_packet_sink_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_sos_packet_sink_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_sos_packet_sink_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_sos_packet_sink_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_sos_packet_sink_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_sos_packet_sink_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_min_output_buffer(long)\n"
+    "    gr_block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
 SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_detail(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
@@ -5842,6 +7231,39 @@ SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_name(PyObject *SWIGUNUSEDPA
   {
     try {
       result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -6035,6 +7457,214 @@ SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_check_topology(PyObject *SW
     
   }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr_set_block_alias",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "ucla_sos_packet_sink_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr__post",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ucla_sos_packet_sink_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_sos_packet_sink_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ucla_sos_packet_sink_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_sos_packet_sink_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_sos_packet_sink_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_sos_packet_sink > *arg1 = (boost::shared_ptr< ucla_sos_packet_sink > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_sos_packet_sink_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_sos_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_sos_packet_sink_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< ucla_sos_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_sos_packet_sink > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -6516,6 +8146,523 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr_set_max_noutput_items",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_max_output_buffer(long)\n"
+    "    gr_block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_min_output_buffer(long)\n"
+    "    gr_block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
 SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_detail(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
@@ -6615,6 +8762,39 @@ SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_name(PyObject *SWI
   {
     try {
       result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -6808,6 +8988,214 @@ SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_check_topology(PyO
     
   }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr_set_block_alias",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr__post",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ucla_ieee802_15_4_packet_sink_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_ieee802_15_4_packet_sink_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ucla_ieee802_15_4_packet_sink_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_ieee802_15_4_packet_sink_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_ieee802_15_4_packet_sink_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *arg1 = (boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_ieee802_15_4_packet_sink_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_ieee802_15_4_packet_sink_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_ieee802_15_4_packet_sink_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< ucla_ieee802_15_4_packet_sink > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_ieee802_15_4_packet_sink > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -7273,6 +9661,523 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr_set_max_noutput_items",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_qpsk_modulator_cc_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_qpsk_modulator_cc_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_qpsk_modulator_cc_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_qpsk_modulator_cc_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_qpsk_modulator_cc_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_qpsk_modulator_cc_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_qpsk_modulator_cc_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_qpsk_modulator_cc_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_max_output_buffer(long)\n"
+    "    gr_block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_qpsk_modulator_cc_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_qpsk_modulator_cc_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_qpsk_modulator_cc_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_qpsk_modulator_cc_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_qpsk_modulator_cc_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_qpsk_modulator_cc_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_qpsk_modulator_cc_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_min_output_buffer(long)\n"
+    "    gr_block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
 SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_detail(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
@@ -7372,6 +10277,39 @@ SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_name(PyObject *SWIGUNUSED
   {
     try {
       result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -7565,6 +10503,214 @@ SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_check_topology(PyObject *
     
   }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr_set_block_alias",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "ucla_qpsk_modulator_cc_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr__post",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ucla_qpsk_modulator_cc_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_qpsk_modulator_cc_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ucla_qpsk_modulator_cc_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_qpsk_modulator_cc_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_qpsk_modulator_cc_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_qpsk_modulator_cc > *arg1 = (boost::shared_ptr< ucla_qpsk_modulator_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_qpsk_modulator_cc_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_qpsk_modulator_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_qpsk_modulator_cc_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< ucla_qpsk_modulator_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_qpsk_modulator_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -8003,6 +11149,523 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr_set_max_noutput_items",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_symbols_to_chips_bi_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_symbols_to_chips_bi_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_symbols_to_chips_bi_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_symbols_to_chips_bi_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_symbols_to_chips_bi_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_symbols_to_chips_bi_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_symbols_to_chips_bi_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_symbols_to_chips_bi_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_max_output_buffer(long)\n"
+    "    gr_block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_symbols_to_chips_bi_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_symbols_to_chips_bi_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_symbols_to_chips_bi_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_symbols_to_chips_bi_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_symbols_to_chips_bi_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_symbols_to_chips_bi_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_symbols_to_chips_bi_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_min_output_buffer(long)\n"
+    "    gr_block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
 SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_detail(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
@@ -8102,6 +11765,39 @@ SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_name(PyObject *SWIGUNUS
   {
     try {
       result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -8295,6 +11991,214 @@ SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_check_topology(PyObject
     
   }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr_set_block_alias",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "ucla_symbols_to_chips_bi_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr__post",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ucla_symbols_to_chips_bi_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_symbols_to_chips_bi_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ucla_symbols_to_chips_bi_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_symbols_to_chips_bi_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_symbols_to_chips_bi_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_symbols_to_chips_bi > *arg1 = (boost::shared_ptr< ucla_symbols_to_chips_bi > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_symbols_to_chips_bi_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_symbols_to_chips_bi_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_symbols_to_chips_bi_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< ucla_symbols_to_chips_bi > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_symbols_to_chips_bi > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -8733,6 +12637,523 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr_set_max_noutput_items",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_manchester_ff_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_manchester_ff_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_manchester_ff_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_manchester_ff_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_manchester_ff_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_manchester_ff_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_manchester_ff_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_manchester_ff_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_max_output_buffer(long)\n"
+    "    gr_block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_manchester_ff_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_manchester_ff_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_manchester_ff_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_manchester_ff_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_manchester_ff_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_manchester_ff_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_manchester_ff_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_min_output_buffer(long)\n"
+    "    gr_block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
 SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_detail(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
@@ -8832,6 +13253,39 @@ SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_name(PyObject *SWIGUNUSEDPARM
   {
     try {
       result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -9025,6 +13479,214 @@ SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_check_topology(PyObject *SWIG
     
   }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr_set_block_alias",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "ucla_manchester_ff_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr__post",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ucla_manchester_ff_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_manchester_ff_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ucla_manchester_ff_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_manchester_ff_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_manchester_ff_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_manchester_ff > *arg1 = (boost::shared_ptr< ucla_manchester_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_manchester_ff_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_manchester_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_manchester_ff_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< ucla_manchester_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_manchester_ff > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -9463,6 +14125,523 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr_set_max_noutput_items",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_delay_cc_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_delay_cc_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_delay_cc_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_delay_cc_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_delay_cc_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_delay_cc_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_delay_cc_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_delay_cc_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_max_output_buffer(long)\n"
+    "    gr_block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_delay_cc_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_delay_cc_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_delay_cc_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_delay_cc_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_delay_cc_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_delay_cc_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_delay_cc_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_min_output_buffer(long)\n"
+    "    gr_block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
 SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_detail(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
@@ -9562,6 +14741,39 @@ SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_name(PyObject *SWIGUNUSEDPARM(self
   {
     try {
       result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -9755,6 +14967,214 @@ SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_check_topology(PyObject *SWIGUNUSE
     
   }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr_set_block_alias",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "ucla_delay_cc_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr__post",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ucla_delay_cc_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_delay_cc_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ucla_delay_cc_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_delay_cc_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_delay_cc_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_delay_cc > *arg1 = (boost::shared_ptr< ucla_delay_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_delay_cc_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_delay_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_delay_cc_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< ucla_delay_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_delay_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -10203,6 +15623,523 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr_set_max_noutput_items",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_multichanneladd_cc_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_multichanneladd_cc_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_multichanneladd_cc_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_multichanneladd_cc_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_multichanneladd_cc_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_multichanneladd_cc_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_multichanneladd_cc_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_multichanneladd_cc_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_max_output_buffer(long)\n"
+    "    gr_block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_multichanneladd_cc_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_multichanneladd_cc_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ucla_multichanneladd_cc_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ucla_multichanneladd_cc_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ucla_multichanneladd_cc_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ucla_multichanneladd_cc_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ucla_multichanneladd_cc_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_min_output_buffer(long)\n"
+    "    gr_block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
 SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_detail(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
@@ -10302,6 +16239,39 @@ SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_name(PyObject *SWIGUNUSE
   {
     try {
       result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -10501,6 +16471,214 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr_set_block_alias",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "ucla_multichanneladd_cc_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr__post",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ucla_multichanneladd_cc_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_multichanneladd_cc_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ucla_multichanneladd_cc_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ucla_multichanneladd_cc_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ucla_multichanneladd_cc_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< ucla_multichanneladd_cc > *arg1 = (boost::shared_ptr< ucla_multichanneladd_cc > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"ucla_multichanneladd_cc_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_ucla_multichanneladd_cc_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ucla_multichanneladd_cc_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< ucla_multichanneladd_cc > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< ucla_multichanneladd_cc > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *ucla_multichanneladd_cc_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
@@ -10556,14 +16734,37 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"ucla_cc1k_correlator_cb_sptr_stop", _wrap_ucla_cc1k_correlator_cb_sptr_stop, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_stop(ucla_cc1k_correlator_cb_sptr self) -> bool"},
 	 { (char *)"ucla_cc1k_correlator_cb_sptr_nitems_read", _wrap_ucla_cc1k_correlator_cb_sptr_nitems_read, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_nitems_read(ucla_cc1k_correlator_cb_sptr self, unsigned int which_input) -> uint64_t"},
 	 { (char *)"ucla_cc1k_correlator_cb_sptr_nitems_written", _wrap_ucla_cc1k_correlator_cb_sptr_nitems_written, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_nitems_written(ucla_cc1k_correlator_cb_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"ucla_cc1k_correlator_cb_sptr_max_noutput_items", _wrap_ucla_cc1k_correlator_cb_sptr_max_noutput_items, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_max_noutput_items(ucla_cc1k_correlator_cb_sptr self) -> int"},
+	 { (char *)"ucla_cc1k_correlator_cb_sptr_set_max_noutput_items", _wrap_ucla_cc1k_correlator_cb_sptr_set_max_noutput_items, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_set_max_noutput_items(ucla_cc1k_correlator_cb_sptr self, int m)"},
+	 { (char *)"ucla_cc1k_correlator_cb_sptr_unset_max_noutput_items", _wrap_ucla_cc1k_correlator_cb_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_unset_max_noutput_items(ucla_cc1k_correlator_cb_sptr self)"},
+	 { (char *)"ucla_cc1k_correlator_cb_sptr_is_set_max_noutput_items", _wrap_ucla_cc1k_correlator_cb_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_is_set_max_noutput_items(ucla_cc1k_correlator_cb_sptr self) -> bool"},
+	 { (char *)"ucla_cc1k_correlator_cb_sptr_max_output_buffer", _wrap_ucla_cc1k_correlator_cb_sptr_max_output_buffer, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_max_output_buffer(ucla_cc1k_correlator_cb_sptr self, int i) -> long"},
+	 { (char *)"ucla_cc1k_correlator_cb_sptr_set_max_output_buffer", _wrap_ucla_cc1k_correlator_cb_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"ucla_cc1k_correlator_cb_sptr_set_max_output_buffer(ucla_cc1k_correlator_cb_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"ucla_cc1k_correlator_cb_sptr_min_output_buffer", _wrap_ucla_cc1k_correlator_cb_sptr_min_output_buffer, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_min_output_buffer(ucla_cc1k_correlator_cb_sptr self, int i) -> long"},
+	 { (char *)"ucla_cc1k_correlator_cb_sptr_set_min_output_buffer", _wrap_ucla_cc1k_correlator_cb_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"ucla_cc1k_correlator_cb_sptr_set_min_output_buffer(ucla_cc1k_correlator_cb_sptr self, int port, long min_output_buffer)\n"
+		""},
 	 { (char *)"ucla_cc1k_correlator_cb_sptr_detail", _wrap_ucla_cc1k_correlator_cb_sptr_detail, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_detail(ucla_cc1k_correlator_cb_sptr self) -> gr_block_detail_sptr"},
 	 { (char *)"ucla_cc1k_correlator_cb_sptr_set_detail", _wrap_ucla_cc1k_correlator_cb_sptr_set_detail, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_set_detail(ucla_cc1k_correlator_cb_sptr self, gr_block_detail_sptr detail)"},
 	 { (char *)"ucla_cc1k_correlator_cb_sptr_name", _wrap_ucla_cc1k_correlator_cb_sptr_name, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_name(ucla_cc1k_correlator_cb_sptr self) -> string"},
+	 { (char *)"ucla_cc1k_correlator_cb_sptr_symbol_name", _wrap_ucla_cc1k_correlator_cb_sptr_symbol_name, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_symbol_name(ucla_cc1k_correlator_cb_sptr self) -> string"},
 	 { (char *)"ucla_cc1k_correlator_cb_sptr_input_signature", _wrap_ucla_cc1k_correlator_cb_sptr_input_signature, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_input_signature(ucla_cc1k_correlator_cb_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_cc1k_correlator_cb_sptr_output_signature", _wrap_ucla_cc1k_correlator_cb_sptr_output_signature, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_output_signature(ucla_cc1k_correlator_cb_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_cc1k_correlator_cb_sptr_unique_id", _wrap_ucla_cc1k_correlator_cb_sptr_unique_id, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_unique_id(ucla_cc1k_correlator_cb_sptr self) -> long"},
 	 { (char *)"ucla_cc1k_correlator_cb_sptr_to_basic_block", _wrap_ucla_cc1k_correlator_cb_sptr_to_basic_block, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_to_basic_block(ucla_cc1k_correlator_cb_sptr self) -> gr_basic_block_sptr"},
 	 { (char *)"ucla_cc1k_correlator_cb_sptr_check_topology", _wrap_ucla_cc1k_correlator_cb_sptr_check_topology, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_check_topology(ucla_cc1k_correlator_cb_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"ucla_cc1k_correlator_cb_sptr_alias", _wrap_ucla_cc1k_correlator_cb_sptr_alias, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_alias(ucla_cc1k_correlator_cb_sptr self) -> string"},
+	 { (char *)"ucla_cc1k_correlator_cb_sptr_set_block_alias", _wrap_ucla_cc1k_correlator_cb_sptr_set_block_alias, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_set_block_alias(ucla_cc1k_correlator_cb_sptr self, string name)"},
+	 { (char *)"ucla_cc1k_correlator_cb_sptr__post", _wrap_ucla_cc1k_correlator_cb_sptr__post, METH_VARARGS, (char *)"\n"
+		"ucla_cc1k_correlator_cb_sptr__post(ucla_cc1k_correlator_cb_sptr self, pmt_t which_port, \n"
+		"    pmt_t msg)\n"
+		""},
+	 { (char *)"ucla_cc1k_correlator_cb_sptr_message_ports_in", _wrap_ucla_cc1k_correlator_cb_sptr_message_ports_in, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_message_ports_in(ucla_cc1k_correlator_cb_sptr self) -> pmt_t"},
+	 { (char *)"ucla_cc1k_correlator_cb_sptr_message_ports_out", _wrap_ucla_cc1k_correlator_cb_sptr_message_ports_out, METH_VARARGS, (char *)"ucla_cc1k_correlator_cb_sptr_message_ports_out(ucla_cc1k_correlator_cb_sptr self) -> pmt_t"},
 	 { (char *)"ucla_cc1k_correlator_cb_sptr_swigregister", ucla_cc1k_correlator_cb_sptr_swigregister, METH_VARARGS, NULL},
 	 { (char *)"cc1k_correlator_cb", _wrap_cc1k_correlator_cb, METH_VARARGS, (char *)"\n"
 		"cc1k_correlator_cb(int payload_bytesize, unsigned char sync_byte, unsigned char nsync_byte, \n"
@@ -10582,14 +16783,34 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"ucla_sos_packet_sink_sptr_stop", _wrap_ucla_sos_packet_sink_sptr_stop, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_stop(ucla_sos_packet_sink_sptr self) -> bool"},
 	 { (char *)"ucla_sos_packet_sink_sptr_nitems_read", _wrap_ucla_sos_packet_sink_sptr_nitems_read, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_nitems_read(ucla_sos_packet_sink_sptr self, unsigned int which_input) -> uint64_t"},
 	 { (char *)"ucla_sos_packet_sink_sptr_nitems_written", _wrap_ucla_sos_packet_sink_sptr_nitems_written, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_nitems_written(ucla_sos_packet_sink_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"ucla_sos_packet_sink_sptr_max_noutput_items", _wrap_ucla_sos_packet_sink_sptr_max_noutput_items, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_max_noutput_items(ucla_sos_packet_sink_sptr self) -> int"},
+	 { (char *)"ucla_sos_packet_sink_sptr_set_max_noutput_items", _wrap_ucla_sos_packet_sink_sptr_set_max_noutput_items, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_set_max_noutput_items(ucla_sos_packet_sink_sptr self, int m)"},
+	 { (char *)"ucla_sos_packet_sink_sptr_unset_max_noutput_items", _wrap_ucla_sos_packet_sink_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_unset_max_noutput_items(ucla_sos_packet_sink_sptr self)"},
+	 { (char *)"ucla_sos_packet_sink_sptr_is_set_max_noutput_items", _wrap_ucla_sos_packet_sink_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_is_set_max_noutput_items(ucla_sos_packet_sink_sptr self) -> bool"},
+	 { (char *)"ucla_sos_packet_sink_sptr_max_output_buffer", _wrap_ucla_sos_packet_sink_sptr_max_output_buffer, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_max_output_buffer(ucla_sos_packet_sink_sptr self, int i) -> long"},
+	 { (char *)"ucla_sos_packet_sink_sptr_set_max_output_buffer", _wrap_ucla_sos_packet_sink_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"ucla_sos_packet_sink_sptr_set_max_output_buffer(ucla_sos_packet_sink_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"ucla_sos_packet_sink_sptr_min_output_buffer", _wrap_ucla_sos_packet_sink_sptr_min_output_buffer, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_min_output_buffer(ucla_sos_packet_sink_sptr self, int i) -> long"},
+	 { (char *)"ucla_sos_packet_sink_sptr_set_min_output_buffer", _wrap_ucla_sos_packet_sink_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"ucla_sos_packet_sink_sptr_set_min_output_buffer(ucla_sos_packet_sink_sptr self, int port, long min_output_buffer)\n"
+		""},
 	 { (char *)"ucla_sos_packet_sink_sptr_detail", _wrap_ucla_sos_packet_sink_sptr_detail, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_detail(ucla_sos_packet_sink_sptr self) -> gr_block_detail_sptr"},
 	 { (char *)"ucla_sos_packet_sink_sptr_set_detail", _wrap_ucla_sos_packet_sink_sptr_set_detail, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_set_detail(ucla_sos_packet_sink_sptr self, gr_block_detail_sptr detail)"},
 	 { (char *)"ucla_sos_packet_sink_sptr_name", _wrap_ucla_sos_packet_sink_sptr_name, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_name(ucla_sos_packet_sink_sptr self) -> string"},
+	 { (char *)"ucla_sos_packet_sink_sptr_symbol_name", _wrap_ucla_sos_packet_sink_sptr_symbol_name, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_symbol_name(ucla_sos_packet_sink_sptr self) -> string"},
 	 { (char *)"ucla_sos_packet_sink_sptr_input_signature", _wrap_ucla_sos_packet_sink_sptr_input_signature, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_input_signature(ucla_sos_packet_sink_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_sos_packet_sink_sptr_output_signature", _wrap_ucla_sos_packet_sink_sptr_output_signature, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_output_signature(ucla_sos_packet_sink_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_sos_packet_sink_sptr_unique_id", _wrap_ucla_sos_packet_sink_sptr_unique_id, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_unique_id(ucla_sos_packet_sink_sptr self) -> long"},
 	 { (char *)"ucla_sos_packet_sink_sptr_to_basic_block", _wrap_ucla_sos_packet_sink_sptr_to_basic_block, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_to_basic_block(ucla_sos_packet_sink_sptr self) -> gr_basic_block_sptr"},
 	 { (char *)"ucla_sos_packet_sink_sptr_check_topology", _wrap_ucla_sos_packet_sink_sptr_check_topology, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_check_topology(ucla_sos_packet_sink_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"ucla_sos_packet_sink_sptr_alias", _wrap_ucla_sos_packet_sink_sptr_alias, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_alias(ucla_sos_packet_sink_sptr self) -> string"},
+	 { (char *)"ucla_sos_packet_sink_sptr_set_block_alias", _wrap_ucla_sos_packet_sink_sptr_set_block_alias, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_set_block_alias(ucla_sos_packet_sink_sptr self, string name)"},
+	 { (char *)"ucla_sos_packet_sink_sptr__post", _wrap_ucla_sos_packet_sink_sptr__post, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr__post(ucla_sos_packet_sink_sptr self, pmt_t which_port, pmt_t msg)"},
+	 { (char *)"ucla_sos_packet_sink_sptr_message_ports_in", _wrap_ucla_sos_packet_sink_sptr_message_ports_in, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_message_ports_in(ucla_sos_packet_sink_sptr self) -> pmt_t"},
+	 { (char *)"ucla_sos_packet_sink_sptr_message_ports_out", _wrap_ucla_sos_packet_sink_sptr_message_ports_out, METH_VARARGS, (char *)"ucla_sos_packet_sink_sptr_message_ports_out(ucla_sos_packet_sink_sptr self) -> pmt_t"},
 	 { (char *)"ucla_sos_packet_sink_sptr_swigregister", ucla_sos_packet_sink_sptr_swigregister, METH_VARARGS, NULL},
 	 { (char *)"sos_packet_sink", _wrap_sos_packet_sink, METH_VARARGS, (char *)"\n"
 		"sos_packet_sink(__dummy_0__ sync_vector, gr_msg_queue_sptr target_queue, \n"
@@ -10608,9 +16829,26 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_stop", _wrap_ucla_ieee802_15_4_packet_sink_sptr_stop, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_stop(ucla_ieee802_15_4_packet_sink_sptr self) -> bool"},
 	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_nitems_read", _wrap_ucla_ieee802_15_4_packet_sink_sptr_nitems_read, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_nitems_read(ucla_ieee802_15_4_packet_sink_sptr self, unsigned int which_input) -> uint64_t"},
 	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_nitems_written", _wrap_ucla_ieee802_15_4_packet_sink_sptr_nitems_written, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_nitems_written(ucla_ieee802_15_4_packet_sink_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_max_noutput_items", _wrap_ucla_ieee802_15_4_packet_sink_sptr_max_noutput_items, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_max_noutput_items(ucla_ieee802_15_4_packet_sink_sptr self) -> int"},
+	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_set_max_noutput_items", _wrap_ucla_ieee802_15_4_packet_sink_sptr_set_max_noutput_items, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_set_max_noutput_items(ucla_ieee802_15_4_packet_sink_sptr self, int m)"},
+	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_unset_max_noutput_items", _wrap_ucla_ieee802_15_4_packet_sink_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_unset_max_noutput_items(ucla_ieee802_15_4_packet_sink_sptr self)"},
+	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_is_set_max_noutput_items", _wrap_ucla_ieee802_15_4_packet_sink_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_is_set_max_noutput_items(ucla_ieee802_15_4_packet_sink_sptr self) -> bool"},
+	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_max_output_buffer", _wrap_ucla_ieee802_15_4_packet_sink_sptr_max_output_buffer, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_max_output_buffer(ucla_ieee802_15_4_packet_sink_sptr self, int i) -> long"},
+	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer", _wrap_ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"ucla_ieee802_15_4_packet_sink_sptr_set_max_output_buffer(ucla_ieee802_15_4_packet_sink_sptr self, int port, \n"
+		"    long max_output_buffer)\n"
+		""},
+	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_min_output_buffer", _wrap_ucla_ieee802_15_4_packet_sink_sptr_min_output_buffer, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_min_output_buffer(ucla_ieee802_15_4_packet_sink_sptr self, int i) -> long"},
+	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer", _wrap_ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"ucla_ieee802_15_4_packet_sink_sptr_set_min_output_buffer(ucla_ieee802_15_4_packet_sink_sptr self, int port, \n"
+		"    long min_output_buffer)\n"
+		""},
 	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_detail", _wrap_ucla_ieee802_15_4_packet_sink_sptr_detail, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_detail(ucla_ieee802_15_4_packet_sink_sptr self) -> gr_block_detail_sptr"},
 	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_set_detail", _wrap_ucla_ieee802_15_4_packet_sink_sptr_set_detail, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_set_detail(ucla_ieee802_15_4_packet_sink_sptr self, gr_block_detail_sptr detail)"},
 	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_name", _wrap_ucla_ieee802_15_4_packet_sink_sptr_name, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_name(ucla_ieee802_15_4_packet_sink_sptr self) -> string"},
+	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_symbol_name", _wrap_ucla_ieee802_15_4_packet_sink_sptr_symbol_name, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_symbol_name(ucla_ieee802_15_4_packet_sink_sptr self) -> string"},
 	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_input_signature", _wrap_ucla_ieee802_15_4_packet_sink_sptr_input_signature, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_input_signature(ucla_ieee802_15_4_packet_sink_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_output_signature", _wrap_ucla_ieee802_15_4_packet_sink_sptr_output_signature, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_output_signature(ucla_ieee802_15_4_packet_sink_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_unique_id", _wrap_ucla_ieee802_15_4_packet_sink_sptr_unique_id, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_unique_id(ucla_ieee802_15_4_packet_sink_sptr self) -> long"},
@@ -10619,6 +16857,14 @@ static PyMethodDef SwigMethods[] = {
 		"ucla_ieee802_15_4_packet_sink_sptr_check_topology(ucla_ieee802_15_4_packet_sink_sptr self, int ninputs, \n"
 		"    int noutputs) -> bool\n"
 		""},
+	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_alias", _wrap_ucla_ieee802_15_4_packet_sink_sptr_alias, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_alias(ucla_ieee802_15_4_packet_sink_sptr self) -> string"},
+	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_set_block_alias", _wrap_ucla_ieee802_15_4_packet_sink_sptr_set_block_alias, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_set_block_alias(ucla_ieee802_15_4_packet_sink_sptr self, string name)"},
+	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr__post", _wrap_ucla_ieee802_15_4_packet_sink_sptr__post, METH_VARARGS, (char *)"\n"
+		"ucla_ieee802_15_4_packet_sink_sptr__post(ucla_ieee802_15_4_packet_sink_sptr self, pmt_t which_port, \n"
+		"    pmt_t msg)\n"
+		""},
+	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_message_ports_in", _wrap_ucla_ieee802_15_4_packet_sink_sptr_message_ports_in, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_message_ports_in(ucla_ieee802_15_4_packet_sink_sptr self) -> pmt_t"},
+	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_message_ports_out", _wrap_ucla_ieee802_15_4_packet_sink_sptr_message_ports_out, METH_VARARGS, (char *)"ucla_ieee802_15_4_packet_sink_sptr_message_ports_out(ucla_ieee802_15_4_packet_sink_sptr self) -> pmt_t"},
 	 { (char *)"ucla_ieee802_15_4_packet_sink_sptr_swigregister", ucla_ieee802_15_4_packet_sink_sptr_swigregister, METH_VARARGS, NULL},
 	 { (char *)"ieee802_15_4_packet_sink", _wrap_ieee802_15_4_packet_sink, METH_VARARGS, (char *)"ieee802_15_4_packet_sink(gr_msg_queue_sptr target_queue, int threshold) -> ucla_ieee802_15_4_packet_sink_sptr"},
 	 { (char *)"new_ucla_qpsk_modulator_cc_sptr", _wrap_new_ucla_qpsk_modulator_cc_sptr, METH_VARARGS, (char *)"\n"
@@ -10634,14 +16880,37 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"ucla_qpsk_modulator_cc_sptr_stop", _wrap_ucla_qpsk_modulator_cc_sptr_stop, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_stop(ucla_qpsk_modulator_cc_sptr self) -> bool"},
 	 { (char *)"ucla_qpsk_modulator_cc_sptr_nitems_read", _wrap_ucla_qpsk_modulator_cc_sptr_nitems_read, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_nitems_read(ucla_qpsk_modulator_cc_sptr self, unsigned int which_input) -> uint64_t"},
 	 { (char *)"ucla_qpsk_modulator_cc_sptr_nitems_written", _wrap_ucla_qpsk_modulator_cc_sptr_nitems_written, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_nitems_written(ucla_qpsk_modulator_cc_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"ucla_qpsk_modulator_cc_sptr_max_noutput_items", _wrap_ucla_qpsk_modulator_cc_sptr_max_noutput_items, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_max_noutput_items(ucla_qpsk_modulator_cc_sptr self) -> int"},
+	 { (char *)"ucla_qpsk_modulator_cc_sptr_set_max_noutput_items", _wrap_ucla_qpsk_modulator_cc_sptr_set_max_noutput_items, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_set_max_noutput_items(ucla_qpsk_modulator_cc_sptr self, int m)"},
+	 { (char *)"ucla_qpsk_modulator_cc_sptr_unset_max_noutput_items", _wrap_ucla_qpsk_modulator_cc_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_unset_max_noutput_items(ucla_qpsk_modulator_cc_sptr self)"},
+	 { (char *)"ucla_qpsk_modulator_cc_sptr_is_set_max_noutput_items", _wrap_ucla_qpsk_modulator_cc_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_is_set_max_noutput_items(ucla_qpsk_modulator_cc_sptr self) -> bool"},
+	 { (char *)"ucla_qpsk_modulator_cc_sptr_max_output_buffer", _wrap_ucla_qpsk_modulator_cc_sptr_max_output_buffer, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_max_output_buffer(ucla_qpsk_modulator_cc_sptr self, int i) -> long"},
+	 { (char *)"ucla_qpsk_modulator_cc_sptr_set_max_output_buffer", _wrap_ucla_qpsk_modulator_cc_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"ucla_qpsk_modulator_cc_sptr_set_max_output_buffer(ucla_qpsk_modulator_cc_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"ucla_qpsk_modulator_cc_sptr_min_output_buffer", _wrap_ucla_qpsk_modulator_cc_sptr_min_output_buffer, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_min_output_buffer(ucla_qpsk_modulator_cc_sptr self, int i) -> long"},
+	 { (char *)"ucla_qpsk_modulator_cc_sptr_set_min_output_buffer", _wrap_ucla_qpsk_modulator_cc_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"ucla_qpsk_modulator_cc_sptr_set_min_output_buffer(ucla_qpsk_modulator_cc_sptr self, int port, long min_output_buffer)\n"
+		""},
 	 { (char *)"ucla_qpsk_modulator_cc_sptr_detail", _wrap_ucla_qpsk_modulator_cc_sptr_detail, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_detail(ucla_qpsk_modulator_cc_sptr self) -> gr_block_detail_sptr"},
 	 { (char *)"ucla_qpsk_modulator_cc_sptr_set_detail", _wrap_ucla_qpsk_modulator_cc_sptr_set_detail, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_set_detail(ucla_qpsk_modulator_cc_sptr self, gr_block_detail_sptr detail)"},
 	 { (char *)"ucla_qpsk_modulator_cc_sptr_name", _wrap_ucla_qpsk_modulator_cc_sptr_name, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_name(ucla_qpsk_modulator_cc_sptr self) -> string"},
+	 { (char *)"ucla_qpsk_modulator_cc_sptr_symbol_name", _wrap_ucla_qpsk_modulator_cc_sptr_symbol_name, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_symbol_name(ucla_qpsk_modulator_cc_sptr self) -> string"},
 	 { (char *)"ucla_qpsk_modulator_cc_sptr_input_signature", _wrap_ucla_qpsk_modulator_cc_sptr_input_signature, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_input_signature(ucla_qpsk_modulator_cc_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_qpsk_modulator_cc_sptr_output_signature", _wrap_ucla_qpsk_modulator_cc_sptr_output_signature, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_output_signature(ucla_qpsk_modulator_cc_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_qpsk_modulator_cc_sptr_unique_id", _wrap_ucla_qpsk_modulator_cc_sptr_unique_id, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_unique_id(ucla_qpsk_modulator_cc_sptr self) -> long"},
 	 { (char *)"ucla_qpsk_modulator_cc_sptr_to_basic_block", _wrap_ucla_qpsk_modulator_cc_sptr_to_basic_block, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_to_basic_block(ucla_qpsk_modulator_cc_sptr self) -> gr_basic_block_sptr"},
 	 { (char *)"ucla_qpsk_modulator_cc_sptr_check_topology", _wrap_ucla_qpsk_modulator_cc_sptr_check_topology, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_check_topology(ucla_qpsk_modulator_cc_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"ucla_qpsk_modulator_cc_sptr_alias", _wrap_ucla_qpsk_modulator_cc_sptr_alias, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_alias(ucla_qpsk_modulator_cc_sptr self) -> string"},
+	 { (char *)"ucla_qpsk_modulator_cc_sptr_set_block_alias", _wrap_ucla_qpsk_modulator_cc_sptr_set_block_alias, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_set_block_alias(ucla_qpsk_modulator_cc_sptr self, string name)"},
+	 { (char *)"ucla_qpsk_modulator_cc_sptr__post", _wrap_ucla_qpsk_modulator_cc_sptr__post, METH_VARARGS, (char *)"\n"
+		"ucla_qpsk_modulator_cc_sptr__post(ucla_qpsk_modulator_cc_sptr self, pmt_t which_port, \n"
+		"    pmt_t msg)\n"
+		""},
+	 { (char *)"ucla_qpsk_modulator_cc_sptr_message_ports_in", _wrap_ucla_qpsk_modulator_cc_sptr_message_ports_in, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_message_ports_in(ucla_qpsk_modulator_cc_sptr self) -> pmt_t"},
+	 { (char *)"ucla_qpsk_modulator_cc_sptr_message_ports_out", _wrap_ucla_qpsk_modulator_cc_sptr_message_ports_out, METH_VARARGS, (char *)"ucla_qpsk_modulator_cc_sptr_message_ports_out(ucla_qpsk_modulator_cc_sptr self) -> pmt_t"},
 	 { (char *)"ucla_qpsk_modulator_cc_sptr_swigregister", ucla_qpsk_modulator_cc_sptr_swigregister, METH_VARARGS, NULL},
 	 { (char *)"qpsk_modulator_cc", _wrap_qpsk_modulator_cc, METH_VARARGS, (char *)"qpsk_modulator_cc() -> ucla_qpsk_modulator_cc_sptr"},
 	 { (char *)"new_ucla_symbols_to_chips_bi_sptr", _wrap_new_ucla_symbols_to_chips_bi_sptr, METH_VARARGS, (char *)"\n"
@@ -10657,14 +16926,37 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"ucla_symbols_to_chips_bi_sptr_stop", _wrap_ucla_symbols_to_chips_bi_sptr_stop, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_stop(ucla_symbols_to_chips_bi_sptr self) -> bool"},
 	 { (char *)"ucla_symbols_to_chips_bi_sptr_nitems_read", _wrap_ucla_symbols_to_chips_bi_sptr_nitems_read, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_nitems_read(ucla_symbols_to_chips_bi_sptr self, unsigned int which_input) -> uint64_t"},
 	 { (char *)"ucla_symbols_to_chips_bi_sptr_nitems_written", _wrap_ucla_symbols_to_chips_bi_sptr_nitems_written, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_nitems_written(ucla_symbols_to_chips_bi_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"ucla_symbols_to_chips_bi_sptr_max_noutput_items", _wrap_ucla_symbols_to_chips_bi_sptr_max_noutput_items, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_max_noutput_items(ucla_symbols_to_chips_bi_sptr self) -> int"},
+	 { (char *)"ucla_symbols_to_chips_bi_sptr_set_max_noutput_items", _wrap_ucla_symbols_to_chips_bi_sptr_set_max_noutput_items, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_set_max_noutput_items(ucla_symbols_to_chips_bi_sptr self, int m)"},
+	 { (char *)"ucla_symbols_to_chips_bi_sptr_unset_max_noutput_items", _wrap_ucla_symbols_to_chips_bi_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_unset_max_noutput_items(ucla_symbols_to_chips_bi_sptr self)"},
+	 { (char *)"ucla_symbols_to_chips_bi_sptr_is_set_max_noutput_items", _wrap_ucla_symbols_to_chips_bi_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_is_set_max_noutput_items(ucla_symbols_to_chips_bi_sptr self) -> bool"},
+	 { (char *)"ucla_symbols_to_chips_bi_sptr_max_output_buffer", _wrap_ucla_symbols_to_chips_bi_sptr_max_output_buffer, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_max_output_buffer(ucla_symbols_to_chips_bi_sptr self, int i) -> long"},
+	 { (char *)"ucla_symbols_to_chips_bi_sptr_set_max_output_buffer", _wrap_ucla_symbols_to_chips_bi_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"ucla_symbols_to_chips_bi_sptr_set_max_output_buffer(ucla_symbols_to_chips_bi_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"ucla_symbols_to_chips_bi_sptr_min_output_buffer", _wrap_ucla_symbols_to_chips_bi_sptr_min_output_buffer, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_min_output_buffer(ucla_symbols_to_chips_bi_sptr self, int i) -> long"},
+	 { (char *)"ucla_symbols_to_chips_bi_sptr_set_min_output_buffer", _wrap_ucla_symbols_to_chips_bi_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"ucla_symbols_to_chips_bi_sptr_set_min_output_buffer(ucla_symbols_to_chips_bi_sptr self, int port, long min_output_buffer)\n"
+		""},
 	 { (char *)"ucla_symbols_to_chips_bi_sptr_detail", _wrap_ucla_symbols_to_chips_bi_sptr_detail, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_detail(ucla_symbols_to_chips_bi_sptr self) -> gr_block_detail_sptr"},
 	 { (char *)"ucla_symbols_to_chips_bi_sptr_set_detail", _wrap_ucla_symbols_to_chips_bi_sptr_set_detail, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_set_detail(ucla_symbols_to_chips_bi_sptr self, gr_block_detail_sptr detail)"},
 	 { (char *)"ucla_symbols_to_chips_bi_sptr_name", _wrap_ucla_symbols_to_chips_bi_sptr_name, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_name(ucla_symbols_to_chips_bi_sptr self) -> string"},
+	 { (char *)"ucla_symbols_to_chips_bi_sptr_symbol_name", _wrap_ucla_symbols_to_chips_bi_sptr_symbol_name, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_symbol_name(ucla_symbols_to_chips_bi_sptr self) -> string"},
 	 { (char *)"ucla_symbols_to_chips_bi_sptr_input_signature", _wrap_ucla_symbols_to_chips_bi_sptr_input_signature, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_input_signature(ucla_symbols_to_chips_bi_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_symbols_to_chips_bi_sptr_output_signature", _wrap_ucla_symbols_to_chips_bi_sptr_output_signature, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_output_signature(ucla_symbols_to_chips_bi_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_symbols_to_chips_bi_sptr_unique_id", _wrap_ucla_symbols_to_chips_bi_sptr_unique_id, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_unique_id(ucla_symbols_to_chips_bi_sptr self) -> long"},
 	 { (char *)"ucla_symbols_to_chips_bi_sptr_to_basic_block", _wrap_ucla_symbols_to_chips_bi_sptr_to_basic_block, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_to_basic_block(ucla_symbols_to_chips_bi_sptr self) -> gr_basic_block_sptr"},
 	 { (char *)"ucla_symbols_to_chips_bi_sptr_check_topology", _wrap_ucla_symbols_to_chips_bi_sptr_check_topology, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_check_topology(ucla_symbols_to_chips_bi_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"ucla_symbols_to_chips_bi_sptr_alias", _wrap_ucla_symbols_to_chips_bi_sptr_alias, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_alias(ucla_symbols_to_chips_bi_sptr self) -> string"},
+	 { (char *)"ucla_symbols_to_chips_bi_sptr_set_block_alias", _wrap_ucla_symbols_to_chips_bi_sptr_set_block_alias, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_set_block_alias(ucla_symbols_to_chips_bi_sptr self, string name)"},
+	 { (char *)"ucla_symbols_to_chips_bi_sptr__post", _wrap_ucla_symbols_to_chips_bi_sptr__post, METH_VARARGS, (char *)"\n"
+		"ucla_symbols_to_chips_bi_sptr__post(ucla_symbols_to_chips_bi_sptr self, pmt_t which_port, \n"
+		"    pmt_t msg)\n"
+		""},
+	 { (char *)"ucla_symbols_to_chips_bi_sptr_message_ports_in", _wrap_ucla_symbols_to_chips_bi_sptr_message_ports_in, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_message_ports_in(ucla_symbols_to_chips_bi_sptr self) -> pmt_t"},
+	 { (char *)"ucla_symbols_to_chips_bi_sptr_message_ports_out", _wrap_ucla_symbols_to_chips_bi_sptr_message_ports_out, METH_VARARGS, (char *)"ucla_symbols_to_chips_bi_sptr_message_ports_out(ucla_symbols_to_chips_bi_sptr self) -> pmt_t"},
 	 { (char *)"ucla_symbols_to_chips_bi_sptr_swigregister", ucla_symbols_to_chips_bi_sptr_swigregister, METH_VARARGS, NULL},
 	 { (char *)"symbols_to_chips_bi", _wrap_symbols_to_chips_bi, METH_VARARGS, (char *)"symbols_to_chips_bi() -> ucla_symbols_to_chips_bi_sptr"},
 	 { (char *)"new_ucla_manchester_ff_sptr", _wrap_new_ucla_manchester_ff_sptr, METH_VARARGS, (char *)"\n"
@@ -10680,14 +16972,34 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"ucla_manchester_ff_sptr_stop", _wrap_ucla_manchester_ff_sptr_stop, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_stop(ucla_manchester_ff_sptr self) -> bool"},
 	 { (char *)"ucla_manchester_ff_sptr_nitems_read", _wrap_ucla_manchester_ff_sptr_nitems_read, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_nitems_read(ucla_manchester_ff_sptr self, unsigned int which_input) -> uint64_t"},
 	 { (char *)"ucla_manchester_ff_sptr_nitems_written", _wrap_ucla_manchester_ff_sptr_nitems_written, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_nitems_written(ucla_manchester_ff_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"ucla_manchester_ff_sptr_max_noutput_items", _wrap_ucla_manchester_ff_sptr_max_noutput_items, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_max_noutput_items(ucla_manchester_ff_sptr self) -> int"},
+	 { (char *)"ucla_manchester_ff_sptr_set_max_noutput_items", _wrap_ucla_manchester_ff_sptr_set_max_noutput_items, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_set_max_noutput_items(ucla_manchester_ff_sptr self, int m)"},
+	 { (char *)"ucla_manchester_ff_sptr_unset_max_noutput_items", _wrap_ucla_manchester_ff_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_unset_max_noutput_items(ucla_manchester_ff_sptr self)"},
+	 { (char *)"ucla_manchester_ff_sptr_is_set_max_noutput_items", _wrap_ucla_manchester_ff_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_is_set_max_noutput_items(ucla_manchester_ff_sptr self) -> bool"},
+	 { (char *)"ucla_manchester_ff_sptr_max_output_buffer", _wrap_ucla_manchester_ff_sptr_max_output_buffer, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_max_output_buffer(ucla_manchester_ff_sptr self, int i) -> long"},
+	 { (char *)"ucla_manchester_ff_sptr_set_max_output_buffer", _wrap_ucla_manchester_ff_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"ucla_manchester_ff_sptr_set_max_output_buffer(ucla_manchester_ff_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"ucla_manchester_ff_sptr_min_output_buffer", _wrap_ucla_manchester_ff_sptr_min_output_buffer, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_min_output_buffer(ucla_manchester_ff_sptr self, int i) -> long"},
+	 { (char *)"ucla_manchester_ff_sptr_set_min_output_buffer", _wrap_ucla_manchester_ff_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"ucla_manchester_ff_sptr_set_min_output_buffer(ucla_manchester_ff_sptr self, int port, long min_output_buffer)\n"
+		""},
 	 { (char *)"ucla_manchester_ff_sptr_detail", _wrap_ucla_manchester_ff_sptr_detail, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_detail(ucla_manchester_ff_sptr self) -> gr_block_detail_sptr"},
 	 { (char *)"ucla_manchester_ff_sptr_set_detail", _wrap_ucla_manchester_ff_sptr_set_detail, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_set_detail(ucla_manchester_ff_sptr self, gr_block_detail_sptr detail)"},
 	 { (char *)"ucla_manchester_ff_sptr_name", _wrap_ucla_manchester_ff_sptr_name, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_name(ucla_manchester_ff_sptr self) -> string"},
+	 { (char *)"ucla_manchester_ff_sptr_symbol_name", _wrap_ucla_manchester_ff_sptr_symbol_name, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_symbol_name(ucla_manchester_ff_sptr self) -> string"},
 	 { (char *)"ucla_manchester_ff_sptr_input_signature", _wrap_ucla_manchester_ff_sptr_input_signature, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_input_signature(ucla_manchester_ff_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_manchester_ff_sptr_output_signature", _wrap_ucla_manchester_ff_sptr_output_signature, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_output_signature(ucla_manchester_ff_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_manchester_ff_sptr_unique_id", _wrap_ucla_manchester_ff_sptr_unique_id, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_unique_id(ucla_manchester_ff_sptr self) -> long"},
 	 { (char *)"ucla_manchester_ff_sptr_to_basic_block", _wrap_ucla_manchester_ff_sptr_to_basic_block, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_to_basic_block(ucla_manchester_ff_sptr self) -> gr_basic_block_sptr"},
 	 { (char *)"ucla_manchester_ff_sptr_check_topology", _wrap_ucla_manchester_ff_sptr_check_topology, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_check_topology(ucla_manchester_ff_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"ucla_manchester_ff_sptr_alias", _wrap_ucla_manchester_ff_sptr_alias, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_alias(ucla_manchester_ff_sptr self) -> string"},
+	 { (char *)"ucla_manchester_ff_sptr_set_block_alias", _wrap_ucla_manchester_ff_sptr_set_block_alias, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_set_block_alias(ucla_manchester_ff_sptr self, string name)"},
+	 { (char *)"ucla_manchester_ff_sptr__post", _wrap_ucla_manchester_ff_sptr__post, METH_VARARGS, (char *)"ucla_manchester_ff_sptr__post(ucla_manchester_ff_sptr self, pmt_t which_port, pmt_t msg)"},
+	 { (char *)"ucla_manchester_ff_sptr_message_ports_in", _wrap_ucla_manchester_ff_sptr_message_ports_in, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_message_ports_in(ucla_manchester_ff_sptr self) -> pmt_t"},
+	 { (char *)"ucla_manchester_ff_sptr_message_ports_out", _wrap_ucla_manchester_ff_sptr_message_ports_out, METH_VARARGS, (char *)"ucla_manchester_ff_sptr_message_ports_out(ucla_manchester_ff_sptr self) -> pmt_t"},
 	 { (char *)"ucla_manchester_ff_sptr_swigregister", ucla_manchester_ff_sptr_swigregister, METH_VARARGS, NULL},
 	 { (char *)"manchester_ff", _wrap_manchester_ff, METH_VARARGS, (char *)"manchester_ff() -> ucla_manchester_ff_sptr"},
 	 { (char *)"new_ucla_delay_cc_sptr", _wrap_new_ucla_delay_cc_sptr, METH_VARARGS, (char *)"\n"
@@ -10703,14 +17015,34 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"ucla_delay_cc_sptr_stop", _wrap_ucla_delay_cc_sptr_stop, METH_VARARGS, (char *)"ucla_delay_cc_sptr_stop(ucla_delay_cc_sptr self) -> bool"},
 	 { (char *)"ucla_delay_cc_sptr_nitems_read", _wrap_ucla_delay_cc_sptr_nitems_read, METH_VARARGS, (char *)"ucla_delay_cc_sptr_nitems_read(ucla_delay_cc_sptr self, unsigned int which_input) -> uint64_t"},
 	 { (char *)"ucla_delay_cc_sptr_nitems_written", _wrap_ucla_delay_cc_sptr_nitems_written, METH_VARARGS, (char *)"ucla_delay_cc_sptr_nitems_written(ucla_delay_cc_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"ucla_delay_cc_sptr_max_noutput_items", _wrap_ucla_delay_cc_sptr_max_noutput_items, METH_VARARGS, (char *)"ucla_delay_cc_sptr_max_noutput_items(ucla_delay_cc_sptr self) -> int"},
+	 { (char *)"ucla_delay_cc_sptr_set_max_noutput_items", _wrap_ucla_delay_cc_sptr_set_max_noutput_items, METH_VARARGS, (char *)"ucla_delay_cc_sptr_set_max_noutput_items(ucla_delay_cc_sptr self, int m)"},
+	 { (char *)"ucla_delay_cc_sptr_unset_max_noutput_items", _wrap_ucla_delay_cc_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"ucla_delay_cc_sptr_unset_max_noutput_items(ucla_delay_cc_sptr self)"},
+	 { (char *)"ucla_delay_cc_sptr_is_set_max_noutput_items", _wrap_ucla_delay_cc_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"ucla_delay_cc_sptr_is_set_max_noutput_items(ucla_delay_cc_sptr self) -> bool"},
+	 { (char *)"ucla_delay_cc_sptr_max_output_buffer", _wrap_ucla_delay_cc_sptr_max_output_buffer, METH_VARARGS, (char *)"ucla_delay_cc_sptr_max_output_buffer(ucla_delay_cc_sptr self, int i) -> long"},
+	 { (char *)"ucla_delay_cc_sptr_set_max_output_buffer", _wrap_ucla_delay_cc_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"ucla_delay_cc_sptr_set_max_output_buffer(ucla_delay_cc_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"ucla_delay_cc_sptr_min_output_buffer", _wrap_ucla_delay_cc_sptr_min_output_buffer, METH_VARARGS, (char *)"ucla_delay_cc_sptr_min_output_buffer(ucla_delay_cc_sptr self, int i) -> long"},
+	 { (char *)"ucla_delay_cc_sptr_set_min_output_buffer", _wrap_ucla_delay_cc_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"ucla_delay_cc_sptr_set_min_output_buffer(ucla_delay_cc_sptr self, int port, long min_output_buffer)\n"
+		""},
 	 { (char *)"ucla_delay_cc_sptr_detail", _wrap_ucla_delay_cc_sptr_detail, METH_VARARGS, (char *)"ucla_delay_cc_sptr_detail(ucla_delay_cc_sptr self) -> gr_block_detail_sptr"},
 	 { (char *)"ucla_delay_cc_sptr_set_detail", _wrap_ucla_delay_cc_sptr_set_detail, METH_VARARGS, (char *)"ucla_delay_cc_sptr_set_detail(ucla_delay_cc_sptr self, gr_block_detail_sptr detail)"},
 	 { (char *)"ucla_delay_cc_sptr_name", _wrap_ucla_delay_cc_sptr_name, METH_VARARGS, (char *)"ucla_delay_cc_sptr_name(ucla_delay_cc_sptr self) -> string"},
+	 { (char *)"ucla_delay_cc_sptr_symbol_name", _wrap_ucla_delay_cc_sptr_symbol_name, METH_VARARGS, (char *)"ucla_delay_cc_sptr_symbol_name(ucla_delay_cc_sptr self) -> string"},
 	 { (char *)"ucla_delay_cc_sptr_input_signature", _wrap_ucla_delay_cc_sptr_input_signature, METH_VARARGS, (char *)"ucla_delay_cc_sptr_input_signature(ucla_delay_cc_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_delay_cc_sptr_output_signature", _wrap_ucla_delay_cc_sptr_output_signature, METH_VARARGS, (char *)"ucla_delay_cc_sptr_output_signature(ucla_delay_cc_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_delay_cc_sptr_unique_id", _wrap_ucla_delay_cc_sptr_unique_id, METH_VARARGS, (char *)"ucla_delay_cc_sptr_unique_id(ucla_delay_cc_sptr self) -> long"},
 	 { (char *)"ucla_delay_cc_sptr_to_basic_block", _wrap_ucla_delay_cc_sptr_to_basic_block, METH_VARARGS, (char *)"ucla_delay_cc_sptr_to_basic_block(ucla_delay_cc_sptr self) -> gr_basic_block_sptr"},
 	 { (char *)"ucla_delay_cc_sptr_check_topology", _wrap_ucla_delay_cc_sptr_check_topology, METH_VARARGS, (char *)"ucla_delay_cc_sptr_check_topology(ucla_delay_cc_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"ucla_delay_cc_sptr_alias", _wrap_ucla_delay_cc_sptr_alias, METH_VARARGS, (char *)"ucla_delay_cc_sptr_alias(ucla_delay_cc_sptr self) -> string"},
+	 { (char *)"ucla_delay_cc_sptr_set_block_alias", _wrap_ucla_delay_cc_sptr_set_block_alias, METH_VARARGS, (char *)"ucla_delay_cc_sptr_set_block_alias(ucla_delay_cc_sptr self, string name)"},
+	 { (char *)"ucla_delay_cc_sptr__post", _wrap_ucla_delay_cc_sptr__post, METH_VARARGS, (char *)"ucla_delay_cc_sptr__post(ucla_delay_cc_sptr self, pmt_t which_port, pmt_t msg)"},
+	 { (char *)"ucla_delay_cc_sptr_message_ports_in", _wrap_ucla_delay_cc_sptr_message_ports_in, METH_VARARGS, (char *)"ucla_delay_cc_sptr_message_ports_in(ucla_delay_cc_sptr self) -> pmt_t"},
+	 { (char *)"ucla_delay_cc_sptr_message_ports_out", _wrap_ucla_delay_cc_sptr_message_ports_out, METH_VARARGS, (char *)"ucla_delay_cc_sptr_message_ports_out(ucla_delay_cc_sptr self) -> pmt_t"},
 	 { (char *)"ucla_delay_cc_sptr_swigregister", ucla_delay_cc_sptr_swigregister, METH_VARARGS, NULL},
 	 { (char *)"delay_cc", _wrap_delay_cc, METH_VARARGS, (char *)"delay_cc(int delay) -> ucla_delay_cc_sptr"},
 	 { (char *)"new_ucla_multichanneladd_cc_sptr", _wrap_new_ucla_multichanneladd_cc_sptr, METH_VARARGS, (char *)"\n"
@@ -10726,14 +17058,37 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"ucla_multichanneladd_cc_sptr_stop", _wrap_ucla_multichanneladd_cc_sptr_stop, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_stop(ucla_multichanneladd_cc_sptr self) -> bool"},
 	 { (char *)"ucla_multichanneladd_cc_sptr_nitems_read", _wrap_ucla_multichanneladd_cc_sptr_nitems_read, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_nitems_read(ucla_multichanneladd_cc_sptr self, unsigned int which_input) -> uint64_t"},
 	 { (char *)"ucla_multichanneladd_cc_sptr_nitems_written", _wrap_ucla_multichanneladd_cc_sptr_nitems_written, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_nitems_written(ucla_multichanneladd_cc_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"ucla_multichanneladd_cc_sptr_max_noutput_items", _wrap_ucla_multichanneladd_cc_sptr_max_noutput_items, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_max_noutput_items(ucla_multichanneladd_cc_sptr self) -> int"},
+	 { (char *)"ucla_multichanneladd_cc_sptr_set_max_noutput_items", _wrap_ucla_multichanneladd_cc_sptr_set_max_noutput_items, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_set_max_noutput_items(ucla_multichanneladd_cc_sptr self, int m)"},
+	 { (char *)"ucla_multichanneladd_cc_sptr_unset_max_noutput_items", _wrap_ucla_multichanneladd_cc_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_unset_max_noutput_items(ucla_multichanneladd_cc_sptr self)"},
+	 { (char *)"ucla_multichanneladd_cc_sptr_is_set_max_noutput_items", _wrap_ucla_multichanneladd_cc_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_is_set_max_noutput_items(ucla_multichanneladd_cc_sptr self) -> bool"},
+	 { (char *)"ucla_multichanneladd_cc_sptr_max_output_buffer", _wrap_ucla_multichanneladd_cc_sptr_max_output_buffer, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_max_output_buffer(ucla_multichanneladd_cc_sptr self, int i) -> long"},
+	 { (char *)"ucla_multichanneladd_cc_sptr_set_max_output_buffer", _wrap_ucla_multichanneladd_cc_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"ucla_multichanneladd_cc_sptr_set_max_output_buffer(ucla_multichanneladd_cc_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"ucla_multichanneladd_cc_sptr_min_output_buffer", _wrap_ucla_multichanneladd_cc_sptr_min_output_buffer, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_min_output_buffer(ucla_multichanneladd_cc_sptr self, int i) -> long"},
+	 { (char *)"ucla_multichanneladd_cc_sptr_set_min_output_buffer", _wrap_ucla_multichanneladd_cc_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"ucla_multichanneladd_cc_sptr_set_min_output_buffer(ucla_multichanneladd_cc_sptr self, int port, long min_output_buffer)\n"
+		""},
 	 { (char *)"ucla_multichanneladd_cc_sptr_detail", _wrap_ucla_multichanneladd_cc_sptr_detail, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_detail(ucla_multichanneladd_cc_sptr self) -> gr_block_detail_sptr"},
 	 { (char *)"ucla_multichanneladd_cc_sptr_set_detail", _wrap_ucla_multichanneladd_cc_sptr_set_detail, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_set_detail(ucla_multichanneladd_cc_sptr self, gr_block_detail_sptr detail)"},
 	 { (char *)"ucla_multichanneladd_cc_sptr_name", _wrap_ucla_multichanneladd_cc_sptr_name, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_name(ucla_multichanneladd_cc_sptr self) -> string"},
+	 { (char *)"ucla_multichanneladd_cc_sptr_symbol_name", _wrap_ucla_multichanneladd_cc_sptr_symbol_name, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_symbol_name(ucla_multichanneladd_cc_sptr self) -> string"},
 	 { (char *)"ucla_multichanneladd_cc_sptr_input_signature", _wrap_ucla_multichanneladd_cc_sptr_input_signature, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_input_signature(ucla_multichanneladd_cc_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_multichanneladd_cc_sptr_output_signature", _wrap_ucla_multichanneladd_cc_sptr_output_signature, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_output_signature(ucla_multichanneladd_cc_sptr self) -> gr_io_signature_sptr"},
 	 { (char *)"ucla_multichanneladd_cc_sptr_unique_id", _wrap_ucla_multichanneladd_cc_sptr_unique_id, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_unique_id(ucla_multichanneladd_cc_sptr self) -> long"},
 	 { (char *)"ucla_multichanneladd_cc_sptr_to_basic_block", _wrap_ucla_multichanneladd_cc_sptr_to_basic_block, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_to_basic_block(ucla_multichanneladd_cc_sptr self) -> gr_basic_block_sptr"},
 	 { (char *)"ucla_multichanneladd_cc_sptr_check_topology", _wrap_ucla_multichanneladd_cc_sptr_check_topology, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_check_topology(ucla_multichanneladd_cc_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"ucla_multichanneladd_cc_sptr_alias", _wrap_ucla_multichanneladd_cc_sptr_alias, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_alias(ucla_multichanneladd_cc_sptr self) -> string"},
+	 { (char *)"ucla_multichanneladd_cc_sptr_set_block_alias", _wrap_ucla_multichanneladd_cc_sptr_set_block_alias, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_set_block_alias(ucla_multichanneladd_cc_sptr self, string name)"},
+	 { (char *)"ucla_multichanneladd_cc_sptr__post", _wrap_ucla_multichanneladd_cc_sptr__post, METH_VARARGS, (char *)"\n"
+		"ucla_multichanneladd_cc_sptr__post(ucla_multichanneladd_cc_sptr self, pmt_t which_port, \n"
+		"    pmt_t msg)\n"
+		""},
+	 { (char *)"ucla_multichanneladd_cc_sptr_message_ports_in", _wrap_ucla_multichanneladd_cc_sptr_message_ports_in, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_message_ports_in(ucla_multichanneladd_cc_sptr self) -> pmt_t"},
+	 { (char *)"ucla_multichanneladd_cc_sptr_message_ports_out", _wrap_ucla_multichanneladd_cc_sptr_message_ports_out, METH_VARARGS, (char *)"ucla_multichanneladd_cc_sptr_message_ports_out(ucla_multichanneladd_cc_sptr self) -> pmt_t"},
 	 { (char *)"ucla_multichanneladd_cc_sptr_swigregister", ucla_multichanneladd_cc_sptr_swigregister, METH_VARARGS, NULL},
 	 { (char *)"multichanneladd_cc", _wrap_multichanneladd_cc, METH_VARARGS, (char *)"multichanneladd_cc(int delay) -> ucla_multichanneladd_cc_sptr"},
 	 { NULL, NULL, 0, NULL }
@@ -10851,6 +17206,7 @@ static void *_p_gr_sync_interpolatorTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(n
     return (void *)((gr_block *) (gr_sync_block *) ((gr_sync_interpolator *) x));
 }
 static swig_type_info _swigt__p_allocator_type = {"_p_allocator_type", "allocator_type *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_boost__intrusive_ptrT_pmt__pmt_base_t = {"_p_boost__intrusive_ptrT_pmt__pmt_base_t", "pmt::pmt_t *|boost::intrusive_ptr< pmt::pmt_base > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr_basic_block_t = {"_p_boost__shared_ptrT_gr_basic_block_t", "boost::shared_ptr< gr_basic_block > *|gr_basic_block_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr_block_detail_t = {"_p_boost__shared_ptrT_gr_block_detail_t", "boost::shared_ptr< gr_block_detail > *|gr_block_detail_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr_block_t = {"_p_boost__shared_ptrT_gr_block_t", "boost::shared_ptr< gr_block > *|gr_block_sptr *", 0, 0, (void*)0, 0};
@@ -10881,7 +17237,10 @@ static swig_type_info _swigt__p_gr_block = {"_p_gr_block", "gr_block *", 0, 0, (
 static swig_type_info _swigt__p_gr_sync_block = {"_p_gr_sync_block", "gr_sync_block *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr_sync_interpolator = {"_p_gr_sync_interpolator", "gr_sync_interpolator *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gruel__rt_status_t = {"_p_gruel__rt_status_t", "enum gruel::rt_status_t *|gruel::rt_status_t *|gr_rt_status_t *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_long_long = {"_p_long_long", "int64_t *|long long *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_int = {"_p_int", "intptr_t *|int *|int_least32_t *|int_fast32_t *|int32_t *|int_fast16_t *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_long_long = {"_p_long_long", "int_least64_t *|int_fast64_t *|int64_t *|long long *|intmax_t *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_short = {"_p_short", "short *|int_least16_t *|int16_t *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_signed_char = {"_p_signed_char", "signed char *|int_least8_t *|int_fast8_t *|int8_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_size_type = {"_p_size_type", "size_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__complexT_double_t = {"_p_std__complexT_double_t", "gr_complexd *|std::complex< double > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__complexT_float_t = {"_p_std__complexT_float_t", "std::complex< float > *|gr_complex *", 0, 0, (void*)0, 0};
@@ -10893,11 +17252,15 @@ static swig_type_info _swigt__p_ucla_multichanneladd_cc = {"_p_ucla_multichannel
 static swig_type_info _swigt__p_ucla_qpsk_modulator_cc = {"_p_ucla_qpsk_modulator_cc", "ucla_qpsk_modulator_cc *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ucla_sos_packet_sink = {"_p_ucla_sos_packet_sink", "ucla_sos_packet_sink *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ucla_symbols_to_chips_bi = {"_p_ucla_symbols_to_chips_bi", "ucla_symbols_to_chips_bi *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_unsigned_long_long = {"_p_unsigned_long_long", "uint64_t *|unsigned long long *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_unsigned_char = {"_p_unsigned_char", "unsigned char *|uint_least8_t *|uint_fast8_t *|uint8_t *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_unsigned_int = {"_p_unsigned_int", "uintptr_t *|uint_least32_t *|uint_fast32_t *|uint32_t *|unsigned int *|uint_fast16_t *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_unsigned_long_long = {"_p_unsigned_long_long", "uint_least64_t *|uint_fast64_t *|uint64_t *|unsigned long long *|uintmax_t *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_unsigned_short = {"_p_unsigned_short", "unsigned short *|uint_least16_t *|uint16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_value_type = {"_p_value_type", "value_type *", 0, 0, (void*)0, 0};
 
 static swig_type_info *swig_type_initial[] = {
   &_swigt__p_allocator_type,
+  &_swigt__p_boost__intrusive_ptrT_pmt__pmt_base_t,
   &_swigt__p_boost__shared_ptrT_gr_basic_block_t,
   &_swigt__p_boost__shared_ptrT_gr_block_detail_t,
   &_swigt__p_boost__shared_ptrT_gr_block_t,
@@ -10928,7 +17291,10 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_gr_sync_interpolator,
   &_swigt__p_gr_top_block,
   &_swigt__p_gruel__rt_status_t,
+  &_swigt__p_int,
   &_swigt__p_long_long,
+  &_swigt__p_short,
+  &_swigt__p_signed_char,
   &_swigt__p_size_type,
   &_swigt__p_std__complexT_double_t,
   &_swigt__p_std__complexT_float_t,
@@ -10940,11 +17306,15 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_ucla_qpsk_modulator_cc,
   &_swigt__p_ucla_sos_packet_sink,
   &_swigt__p_ucla_symbols_to_chips_bi,
+  &_swigt__p_unsigned_char,
+  &_swigt__p_unsigned_int,
   &_swigt__p_unsigned_long_long,
+  &_swigt__p_unsigned_short,
   &_swigt__p_value_type,
 };
 
 static swig_cast_info _swigc__p_allocator_type[] = {  {&_swigt__p_allocator_type, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_boost__intrusive_ptrT_pmt__pmt_base_t[] = {  {&_swigt__p_boost__intrusive_ptrT_pmt__pmt_base_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr_basic_block_t[] = {  {&_swigt__p_boost__shared_ptrT_gr_basic_block_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr_block_detail_t[] = {  {&_swigt__p_boost__shared_ptrT_gr_block_detail_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr_block_t[] = {  {&_swigt__p_boost__shared_ptrT_gr_block_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -10975,7 +17345,10 @@ static swig_cast_info _swigc__p_gr_block[] = {  {&_swigt__p_ucla_delay_cc, _p_uc
 static swig_cast_info _swigc__p_gr_sync_block[] = {  {&_swigt__p_ucla_delay_cc, _p_ucla_delay_ccTo_p_gr_sync_block, 0, 0},  {&_swigt__p_ucla_qpsk_modulator_cc, _p_ucla_qpsk_modulator_ccTo_p_gr_sync_block, 0, 0},  {&_swigt__p_ucla_symbols_to_chips_bi, _p_ucla_symbols_to_chips_biTo_p_gr_sync_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_sync_block, 0, 0},  {&_swigt__p_ucla_sos_packet_sink, _p_ucla_sos_packet_sinkTo_p_gr_sync_block, 0, 0},  {&_swigt__p_ucla_ieee802_15_4_packet_sink, _p_ucla_ieee802_15_4_packet_sinkTo_p_gr_sync_block, 0, 0},  {&_swigt__p_gr_sync_block, 0, 0, 0},  {&_swigt__p_ucla_manchester_ff, _p_ucla_manchester_ffTo_p_gr_sync_block, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_sync_block, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_sync_interpolator[] = {  {&_swigt__p_ucla_qpsk_modulator_cc, _p_ucla_qpsk_modulator_ccTo_p_gr_sync_interpolator, 0, 0},  {&_swigt__p_ucla_symbols_to_chips_bi, _p_ucla_symbols_to_chips_biTo_p_gr_sync_interpolator, 0, 0},  {&_swigt__p_ucla_manchester_ff, _p_ucla_manchester_ffTo_p_gr_sync_interpolator, 0, 0},  {&_swigt__p_gr_sync_interpolator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gruel__rt_status_t[] = {  {&_swigt__p_gruel__rt_status_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_int[] = {  {&_swigt__p_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_long_long[] = {  {&_swigt__p_long_long, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_short[] = {  {&_swigt__p_short, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_signed_char[] = {  {&_swigt__p_signed_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_size_type[] = {  {&_swigt__p_size_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__complexT_double_t[] = {  {&_swigt__p_std__complexT_double_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__complexT_float_t[] = {  {&_swigt__p_std__complexT_float_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -10987,11 +17360,15 @@ static swig_cast_info _swigc__p_ucla_multichanneladd_cc[] = {  {&_swigt__p_ucla_
 static swig_cast_info _swigc__p_ucla_qpsk_modulator_cc[] = {  {&_swigt__p_ucla_qpsk_modulator_cc, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ucla_sos_packet_sink[] = {  {&_swigt__p_ucla_sos_packet_sink, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ucla_symbols_to_chips_bi[] = {  {&_swigt__p_ucla_symbols_to_chips_bi, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_unsigned_char[] = {  {&_swigt__p_unsigned_char, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_unsigned_int[] = {  {&_swigt__p_unsigned_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_unsigned_long_long[] = {  {&_swigt__p_unsigned_long_long, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_unsigned_short[] = {  {&_swigt__p_unsigned_short, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_value_type[] = {  {&_swigt__p_value_type, 0, 0, 0},{0, 0, 0, 0}};
 
 static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_allocator_type,
+  _swigc__p_boost__intrusive_ptrT_pmt__pmt_base_t,
   _swigc__p_boost__shared_ptrT_gr_basic_block_t,
   _swigc__p_boost__shared_ptrT_gr_block_detail_t,
   _swigc__p_boost__shared_ptrT_gr_block_t,
@@ -11022,7 +17399,10 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_gr_sync_interpolator,
   _swigc__p_gr_top_block,
   _swigc__p_gruel__rt_status_t,
+  _swigc__p_int,
   _swigc__p_long_long,
+  _swigc__p_short,
+  _swigc__p_signed_char,
   _swigc__p_size_type,
   _swigc__p_std__complexT_double_t,
   _swigc__p_std__complexT_float_t,
@@ -11034,7 +17414,10 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_ucla_qpsk_modulator_cc,
   _swigc__p_ucla_sos_packet_sink,
   _swigc__p_ucla_symbols_to_chips_bi,
+  _swigc__p_unsigned_char,
+  _swigc__p_unsigned_int,
   _swigc__p_unsigned_long_long,
+  _swigc__p_unsigned_short,
   _swigc__p_value_type,
 };
 

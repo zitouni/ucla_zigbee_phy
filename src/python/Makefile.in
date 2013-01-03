@@ -361,7 +361,6 @@ mostlyclean-libtool:
 clean-libtool:
 	-rm -rf .libs _libs
 install-uclapythonPYTHON: $(uclapython_PYTHON)
-
 	@$(NORMAL_INSTALL)
 	test -z "$(uclapythondir)" || $(MKDIR_P) "$(DESTDIR)$(uclapythondir)"
 	@list='$(uclapython_PYTHON)'; dlist=; list2=; test -n "$(uclapythondir)" || list=; \

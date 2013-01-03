@@ -517,7 +517,6 @@ mostlyclean-libtool:
 clean-libtool:
 	-rm -rf .libs _libs
 install-ourpythonPYTHON: $(ourpython_PYTHON)
-
 	@$(NORMAL_INSTALL)
 	test -z "$(ourpythondir)" || $(MKDIR_P) "$(DESTDIR)$(ourpythondir)"
 	@list='$(ourpython_PYTHON)'; dlist=; list2=; test -n "$(ourpythondir)" || list=; \
